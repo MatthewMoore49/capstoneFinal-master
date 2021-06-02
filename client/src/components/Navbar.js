@@ -11,6 +11,7 @@ const Navbar = () => {
               <li><a href="#contact">Contact</a></li>
               <li><a href="#attractions">Attractions</a></li>
             </ul>
+            <img src="" alt=""/>
         </div>
       </div>
     )
