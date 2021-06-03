@@ -19,3 +19,14 @@ export default class contact extends Component {
     }
 
   }
+
+  onChangeName(e){
+    this.setState({
+      name: e.target.value
+    })
+  }
+  onChangeEmail(e){
+    this.setState({
+      email: e.target.value
+    })
+  }
