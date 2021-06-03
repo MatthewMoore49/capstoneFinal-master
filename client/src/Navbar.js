@@ -6,7 +6,7 @@ import { Link, NavLink, withRouter } from 'react-router-dom';
 const Navbar = () => {
     return (
       <div className="sidenav">
-        <h2>Queen City</h2><br />
+        <h2>Queen City Attractions</h2><br />
         <ul>
           <li><Link to="/home">Home</Link></li>
           <li><a href="/about">About</a></li>
