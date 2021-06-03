@@ -1,15 +1,23 @@
-h1{
-    margin-left: 200px;
-}
+
 
 .jumbotron {
-    background-image: url(../assets/HomeImgs/Untitled\ design\ \(31\).png);
+    background-image: url(../assets/HomeImgs/Untitled\ design\ \(32\).png);
     background-size: cover;
     padding: 15rem 2rem;
     margin-bottom: 20px;
     filter: grayscale(1);
+    z-index: 0;
 }
 
-.jumbotron.fluid:hover {
+.jumbotron:hover {
+    background-image: url(../assets/HomeImgs/Untitled\ design\ \(32\).png);
+    background-size: cover;
     filter: grayscale(0);
+}
+
+.jumbotron h1 {
+    font-family: 'Kaushan Script';
+    color: #F8F9FA;
+    text-align: center;
+    font-size: 75px;
 }

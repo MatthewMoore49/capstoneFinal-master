@@ -4,6 +4,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/FooterHome';
+import FooterHome from './components/FooterHome';
 import Home from './pages/Home';
 import './styles/Main.css';
 import './styles/Home.css';
@@ -18,6 +19,7 @@ const App = () => {
       <h1>PISS WRINKLE</h1>
       <Footer />
     <Footer />
+    <FooterHome />
     </div>
     </BrowserRouter>
   );
