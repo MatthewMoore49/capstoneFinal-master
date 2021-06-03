@@ -6,6 +6,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #212529;
+    margin-left: 200px;
   }
   
 code {
@@ -14,64 +15,58 @@ code {
   } 
 
   /* navbar */
-  
-  .wrapper{
-    display: flex;
-    position: relative;
-    z-index: 1;
-  }
-  
-  .wrapper .sidebar{
-    width: 200px;
+
+.sidenav {
     height: 100%;
-    background: #495057;
-    padding: 50px 0px;
+    width: 200px;
     position: fixed;
-  }
-  
-  .wrapper .sidebar h2{
-    color: #F8F9FA;
-    font-family: 'Kaushan Script';
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 70px;
-  }
-  
-  .wrapper .sidebar ul li{
-    padding: 15px;
-    /* border-bottom: 1px solid #bdb8d7; */
-    /* border-bottom: 1px solid rgba(0,0,0,0.05);
-    border-top: 1px solid rgba(255,255,255,0.05); */
-    list-style: none;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 70px;
     text-decoration: none;
-    box-sizing: border-box;
-  }    
-  .wrapper .sidebar ul {
-    padding: 0;
+    background: #495057;
   }
-  .wrapper .sidebar ul li a{
-    color: #F8F9FA;
-    display: block;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
+
+  .sidenav h2 {
+      font-family: 'kaushan script';
+      text-align: center;
+      color: #F8F9FA;
   }
-  
-  .wrapper .sidebar ul li a .fas{
-    width: 25px;
+
+  .sidenav ul li {
+      text-decoration: none;
+      list-style: none;
+      font-size: 20px;
+      margin-bottom: 15px;
   }
-  
-  .wrapper .sidebar ul li:hover{
-    background-color: #6C757D;
-  }
+
+  .sidenav a {
+      font-family: 'Oswald';
+      color: #F8F9FA;
       
-  .wrapper .sidebar ul li:hover a{
-    color: #F8F9FA;
   }
-  
-  @media (max-width: 400px){
-    .wrapper .sidebar {
-        width: 25vw;
-        margin-right: 5vw;
+
+  .sidenav a:hover{
+    text-decoration: none;
+    color: #6C757D;
     }
+
+
+
+   @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
   }
+
+    @media (max-width: 400px){
+        .sidenav {
+            padding-top: 15px;
+        }
+        .sidenav a {
+            font-size: 18px;
+            text-align: center;
+        }
+}
