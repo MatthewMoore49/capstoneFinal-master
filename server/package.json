@@ -8,7 +8,7 @@
     "start": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Matthew Moore",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",
