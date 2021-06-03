@@ -2,8 +2,9 @@
 
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import {Container, AppBar, Typography, Grow, Grid} from '@material-ui/core';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
 import Home from './pages/Home';
 import './styles/Main.css';
 import './styles/Home.css';
@@ -16,11 +17,8 @@ const App = () => {
     <Navbar/>
     <Route exact path = '/home' component={Home}/> 
       <h1>PISS WRINKLE</h1>
-<<<<<<< HEAD
       <Footer />
-=======
     <Footer />
->>>>>>> c2fc936b2898ca5fe6f50dba35b036f446e30623
     </div>
     </BrowserRouter>
   );
