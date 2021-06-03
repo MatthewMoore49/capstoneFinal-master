@@ -8,6 +8,7 @@ const App = () => {
   return (
     <div>
       <h1>PISS WRINKLE</h1>
+      <Footer />
     </div>
   );
 }
