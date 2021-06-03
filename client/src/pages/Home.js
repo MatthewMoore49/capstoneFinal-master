@@ -6,7 +6,7 @@ const Home = () => {
         <div className = 'home'>
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
-                    
+                    <h1>Welcome to the Queen City</h1>
                 </div>
             </div>
 
