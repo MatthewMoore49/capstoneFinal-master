@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: 'Oswald', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #212529;
+  }
+  
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  } 
+
+  /* navbar */
+  
+  .wrapper{
+    display: flex;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .wrapper .sidebar{
+    width: 200px;
+    height: 100%;
+    background: #495057;
+    padding: 50px 0px;
+    position: fixed;
+  }
+  
+  .wrapper .sidebar h2{
+    color: #F8F9FA;
+    font-family: 'Kaushan Script';
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 70px;
+  }
+  
+  .wrapper .sidebar ul li{
+    padding: 15px;
+    /* border-bottom: 1px solid #bdb8d7; */
+    /* border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05); */
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }    
+  .wrapper .sidebar ul {
+    padding: 0;
+  }
+  .wrapper .sidebar ul li a{
+    color: #F8F9FA;
+    display: block;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  .wrapper .sidebar ul li a .fas{
+    width: 25px;
+  }
+  
+  .wrapper .sidebar ul li:hover{
+    background-color: #6C757D;
+  }
+      
+  .wrapper .sidebar ul li:hover a{
+    color: #F8F9FA;
+  }
+  
+  @media (max-width: 400px){
+    .wrapper .sidebar {
+        width: 25vw;
+        margin-right: 5vw;
+    }
+  }

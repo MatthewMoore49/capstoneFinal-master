@@ -1,0 +1,15 @@
+h1{
+    margin-left: 200px;
+}
+
+.jumbotron {
+    background-image: url(../assets/HomeImgs/Untitled\ design\ \(31\).png);
+    background-size: cover;
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+}
+
+.jumbotron.fluid:hover {
+    filter: grayscale(0);
+}
