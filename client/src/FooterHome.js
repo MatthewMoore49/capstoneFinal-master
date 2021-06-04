@@ -16,7 +16,7 @@ const FooterHome = () => (
           <a href="https://rachelk920.github.io/portfolio/" rel="noreferrer" target="_blank">Portfolio</a>
         </div>
         <div className="footer-personal-info">
-          <h3>Matt Moore </h3>
+          <h3>Matthew Moore </h3>
           <a href="https://github.com/MatthewMoore49" rel="noreferrer" target="_blank">Github</a>
           <a href="https://www.linkedin.com/in/matthew-m-a3771390/" rel="noreferrer" target="_blank">LinkedIn</a>
           <a href="https://matthewmoore49.github.io/portfolio/" rel="noreferrer" target="_blank">Portfolio</a>
