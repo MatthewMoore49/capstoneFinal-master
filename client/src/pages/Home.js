@@ -18,11 +18,6 @@ const Home = () => {
                     <p>this is a blurb about cincinnati</p>
                 </div>
                 <Cards />
-
-
-
-
-
         </div>
     )
 }
