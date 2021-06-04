@@ -3,6 +3,7 @@ import axios from 'axios';
 import FooterHome from '../components/FooterHome'
 import '../styles/contact.css'
 import Navbar from '../src/Navbar'
+import Contact from './pages/Contact';
 
 
 
