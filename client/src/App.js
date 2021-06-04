@@ -1,24 +1,21 @@
-//import all the things (navbar, etc)
-import {Container, AppBar, Typography, Grow, Grid} from '@material-ui/core';
+import {Container, AppBar, Grow, Grid} from '@material-ui/core';
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Navbar from './components/Navbar';
-import Footer from './components/FooterHome';
-import FooterHome from './components/FooterHome';
 import Navbar from './Navbar';
 import FooterHome from './FooterHome';
 import Home from './pages/Home';
+import About from './pages/About';
 import './styles/Main.css';
-import './styles/Home.css';
+
+
 const App = () => {
   return (
-    <BrowserRouter>
+
+<BrowserRouter>
     <div>
     <Navbar/>
     <Route exact path = '/home' component={Home}/>
-      <h1>PISS WRINKLE</h1>
-      <Footer />
-    <Footer />
+    <Route exact path = '/about' component={About}/>
     <FooterHome />
     </div>
     </BrowserRouter>
