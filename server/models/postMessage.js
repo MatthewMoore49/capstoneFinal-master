@@ -1,22 +1,22 @@
-import mongoose from 'mongoose';
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema;
+const attractionSchema = new Schema({
+        title: {
+            type: String,
+        },
 
-const postSchema = mongoose.Schema({
-  
-        title: String,
-        message: String,
-        creator: String,
-        tags: [String],
-        selectedFile: String,
-        likeCount: {
-            type: Number,
-            default: 0
+        description: {
+            type: String,
         },
-        createdAt: {
-            type: Date,
-            default: new Date()
+        imageURL: {
+            type: String,
         },
+        website: {
+            type: String,
+        },
+        location: {
+            type: String,
+        }
       });
-   
-const PostMessage = mongoose.model('PostMessage', postSchema);
-
-export default PostMessage;
+const Attraction = mongoose.model('Attraction', attractionSchema);
+export default Attraction

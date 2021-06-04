@@ -1,12 +1,9 @@
+const express = require('express');
+const cors = require('cors');
+const mongoose = require('mongoose');
+const path = require('path');
 
-
-import express from 'express';
-import cors from 'cors';
-import mongoose from 'mongoose';
-import path from 'path';
-import dotenv from 'dotenv';
-
-import postRoutes from './routes/posts.js';
+require('dotenv').config();
 
 const app = express();
 const PORT= process.env.PORT || 5000;
@@ -30,5 +27,5 @@ connection.once('open', () => {
 });
 
 app.listen(PORT, () => {
-  console.log('Server is running on port: ${PORT}');
+  console.log(`Server is running on port: ${PORT}`);
 });

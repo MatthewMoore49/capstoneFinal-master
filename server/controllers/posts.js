@@ -1,4 +1,4 @@
-import PostMessage from '../models/postMessage.js';
+// import Attraction from '../models/postMessage.js';
 
 export const getPosts = async (req, res) => {
     try{

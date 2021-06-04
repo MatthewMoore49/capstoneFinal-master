@@ -10,7 +10,7 @@ import '../styles/About.css'
      
     
  
-      <body>
+      <body id='body'>
      
      <div class="leaf">
      <div>  <img src="" height="75px" width="75px"></img></div>
