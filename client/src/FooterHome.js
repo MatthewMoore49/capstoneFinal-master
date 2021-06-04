@@ -1,8 +1,8 @@
-import React from 'react';
+import React from 'react';
 
 
 
-
+ 
 const FooterHome = () => (
     <div className="footer-home">
       <div className="footer-info">
@@ -35,3 +35,6 @@ const FooterHome = () => (
   
 
   export default FooterHome;
+
+
+ 
