@@ -1,7 +1,6 @@
-import mongoose from 'mongoose';
-
-const postSchema = mongoose.Schema({
-  
+const mongoose = require('mongoose')
+const Schema = mongoose.Schema;
+const attractionSchema = new Schema({
         title: {
             type: String,
         },
@@ -16,17 +15,7 @@ const postSchema = mongoose.Schema({
         },
         location: {
             type: String,
-        },
-        // likeCount: {
-        //     type: Number,
-        //     default: 0
-        // },
-        // createdAt: {
-        //     type: Date,
-        //     default: new Date()
-        // },
+        }
       });
-   
-const PostMessage = mongoose.model('PostMessage', postSchema);
-
-export default PostMessage;
+const Attraction = mongoose.model('Attraction', attractionSchema);
+export default Attraction
