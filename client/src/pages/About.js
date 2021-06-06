@@ -1,52 +1,70 @@
-
-  
-import React from 'react'
-import Footer from '../Footer'   
-import Navbar from '../Navbar'
-import '../pages/About.css'
+import React from 'react';
+import '../styles/About.css'
 
 
-const About = () => {
 
+
+
+  const About = () => {
     return (
-      <div className='background'>
-      <div className="history">
-         <h2 class="">Cincinati historical</h2>
-          <p class="cincisub"> Something about history of Cincinnati. </p>
-          </div>
-      <div className="aboutcontainer">
-        <div class="row">
-          <div class="col-lg-4">
-            <img src='../AboutImages/history.png' alt="Generic placeholder " width="220" height="220"></img>
-            <h2 class="name">Nostril hairs</h2>
-            <p class='discription'>Liver Pudding</p>
-            <p><a class="btn btn-lg btn-primary" href="https://www." role="button">Tickle my toenails</a></p>
-          </div>
-
-      </div>
-</div>
-
-
-
-          <div class="col-lg-4">
-        
-      
-
-
-      
-
-
-
-      
-
      
+    
+ 
+      <body id='body'>
+     
+     <div class="leaf">
+     <div>  <img src="" height="75px" width="75px"></img></div>
+      <div><img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Pictures-Collage-PNG.png" height="75px" width="75px"></img></div>
+      <div>  <img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Clip-Art-PNG.png" height="75px" width="75px" ></img></div>
+      <div><img  src="http://www.pngmart.com/files/1/Green-Leaves-PNG-File.png" height="75px" width="75px"></img></div>
+       <div> <img src="http://www.pngmart.com/files/1/Transparent-Autumn-Leaves-Falling-PNG.png" height="75px" width="75px"></img></div>
+     <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></img></div>
+     <div><img src="http://cdn.clipart-db.ru/rastr/autumn_leaves_025.png" height="75px" width="75px"></img></div>
+            
+     </div>
+     
+     <div class="leaf leaf1">
+     <div>  <img src="http://www.pngmart.com/files/1/Fall-Autumn-Leaves-Transparent-PNG.png" height="75px" width="75px"></img></div>
+      <div><img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Pictures-Collage-PNG.png" height="75px" width="75px"></img></div>
+      <div>  <img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Clip-Art-PNG.png" height="75px" width="75px" ></img></div>
+      <div><img  src="http://www.pngmart.com/files/1/Green-Leaves-PNG-File.png" height="75px" width="75px"></img></div>
+       <div> <img src="http://www.pngmart.com/files/1/Transparent-Autumn-Leaves-Falling-PNG.png" height="75px" width="75px"></img></div>
+     <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></img></div>
+     <div><img src="http://cdn.clipart-db.ru/rastr/autumn_leaves_025.png" height="75px" width="75px"></img></div>
+            
+     </div>
+     
+     <div class="leaf leaf2">
+     <div>  <img src="http://www.pngmart.com/files/1/Fall-Autumn-Leaves-Transparent-PNG.png" height="75px" width="75px"></img></div>
+      <div><img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Pictures-Collage-PNG.png" height="75px" width="75px"></img></div>
+      <div>  <img src="http://www.pngmart.com/files/1/Autumn-Fall-Leaves-Clip-Art-PNG.png" height="75px" width="75px" ></img></div>
+      <div><img  src="http://www.pngmart.com/files/1/Green-Leaves-PNG-File.png" height="75px" width="75px"></img></div>
+
+       <div> <img src="http://www.pngmart.com/files/1/Transparent-Autumn-Leaves-Falling-PNG.png" height="75px" width="75px"></img></div>
+     <div>   <img src="http://www.pngmart.com/files/1/Realistic-Autumn-Fall-Leaves-PNG.png" height="75px" width="75px"></img></div>
+     <div><img src="http://cdn.clipart-db.ru/rastr/autumn_leaves_025.png" height="75px" width="75px"></img></div>
+           
+     </div>
+   
+ </body>
+
+
 
       
-     <Footer/>
+    
 
  
-           
+
+
+                    
+                
+       
+
+
+      
     )
 }
+ 
 
-export default 
+export default About
+

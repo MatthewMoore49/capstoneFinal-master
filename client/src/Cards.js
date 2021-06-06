@@ -3,7 +3,6 @@ import Breweries from './assets/HomeImgs/squares/breweries.png';
 import Casinos from './assets/HomeImgs/squares/casino.png';
 import Downtown from './assets/HomeImgs/squares/downtown.png';
 import Food from './assets/HomeImgs/squares/food.png';
-import Kenwood from './assets/HomeImgs/squares/kenwood.png';
 import Liberty from './assets/HomeImgs/squares/libertycenter.png';
 import Museums from './assets/HomeImgs/squares/museums.png';
 import Music from './assets/HomeImgs/squares/music.png';
@@ -76,7 +75,7 @@ const Cards = () => {
                 <div className="gridElements">
                 {/* <a href='/categoryShop'> */}
                 <img src={Others} alt="other"/> 
-                    <p className="bottom-left">OTHER</p> 
+                    <p className="bottom-left">OUR FAVORITES</p> 
                 {/* </a> */}
                 </div>
                 </div>  
@@ -95,15 +94,7 @@ const Cards = () => {
                     <p className="bottom-left">VISIT DOWNTOWN</p> 
                 {/* </a> */}
                 </div>
-                </div>  
-                <div className="imgWithText">
-                <div className="gridElements">
-                {/* <a href='/categoryShop'> */}
-                <img src={Kenwood} alt="Kenwood"/> 
-                    <p className="bottom-left">VISIT KENWOOD</p> 
-                {/* </a> */}
-                </div>
-                </div>  
+                </div>   
                 <div className="imgWithText">
                 <div className="gridElements">
                 {/* <a href='/categoryShop'> */}

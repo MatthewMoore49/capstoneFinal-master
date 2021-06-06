@@ -1,5 +1,5 @@
 /* heroimage */
-.jumbotron {
+.homehover {
     background-image: url(../assets/HomeImgs/1.png);
     background-size: cover;
     padding: 15rem 2rem;
@@ -14,7 +14,7 @@
     filter: grayscale(0);
 }
 
-.jumbotron h1 {
+.homehover h1 {
     font-family: 'Kaushan Script';
     color: #F8F9FA;
     text-align: center;
@@ -23,18 +23,18 @@
     /*  495057  6C757D ADB5BD CED4DA */
 }
 
-.header h1 {
+.homeheader h1 {
     font-family: 'Kaushan Script';
     text-align: center;
     padding-top: 50px;
 }
-.header h2 {
+.homeheader h2 {
     padding-top: 25px;
     text-align: center;
     padding-bottom: 15px;
 }
 
-span {
+.crown {
     font-size: 0.75em;
     padding-left: 10px;
     padding-right: 10px;
@@ -88,10 +88,3 @@ span {
     font-weight: bold;
     text-shadow: 5px 5px 8px #212529;
   } 
-  /* .layoutHomeRight{
-    float: center;
-    width: 56%;
-    height: 56vh;
-    overflow-wrap: normal;
-    overflow:hidden;
-  } */
