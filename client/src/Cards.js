@@ -17,98 +17,98 @@ const Cards = () => {
         <div className="container-fluid">
         <div className="imgWithText">
                 <div className="gridElements">
-                {/* <a href='/categoryView'> */}
+                <a href='/Attractions/#Sports'>
                 <img src={Sports} alt="hockey"/> 
                 <p className="bottom-left">SPORTS</p>
-                {/* </a>  */}
+                </a> 
                 </div>
                 </div>
                <div className="imgWithText">
                 <div className="gridElements">
-                {/* <a href="/categoryPlay"> */}
+                <a href="/Attractions/#Casinos">
                 <img src={Casinos} alt="casino"/> 
                     <p className="bottom-left">CASINOS</p>
-                {/* </a>  */}
+                </a> 
                 </div>
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                    {/* <a href="/categoryArt"> */}
+                    <a href="/Attractions/#Music">
                     <img src={Music} alt="music"/> 
                     <p className="bottom-left">MUSIC</p>
-                    {/* </a>  */}
+                    </a> 
                 </div>
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                {/* <a href='/categorySkate'> */}
+                <a href='/Attractions/#Parks'>
                 <img src={Parks} alt="park"/> 
                     <p className="bottom-left">PARKS</p> 
-                {/* </a> */}
+                </a>
                 </div>
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                {/* <a href='/categoryLearn'> */}
+                <a href='/Attractions/#Museums'>
                 <img src={Museums} alt="Museums"/> 
                     <p className="bottom-left">MUSEUMS</p> 
-                {/* </a> */}
+                </a>
                 </div>
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                {/* <a href='/categoryShop'> */}
+                <a href='/Attractions/#Restaurants'>
                 <img src={Food} alt="food"/> 
                     <p className="bottom-left">FOOD</p> 
-                {/* </a> */}
+                </a>
                 </div>
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
-                {/* <a href='/categoryShop'> */}
+                <a href='/Attractions/#Breweries'>
                 <img src={Breweries} alt="breweries"/> 
                     <p className="bottom-left">BREWERIES</p> 
-                {/* </a> */}
+                </a>
                 </div>
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
-                {/* <a href='/categoryShop'> */}
+                <a href='/Attractions/#Favorites'>
                 <img src={Others} alt="other"/> 
                     <p className="bottom-left">OUR FAVORITES</p> 
-                {/* </a> */}
+                </a>
                 </div>
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
-                {/* <a href='/categoryShop'> */}
+                <a href='/Attractions/#OTR'>
                 <img src={OTR} alt="OTR"/> 
                     <p className="bottom-left">VISIT OTR</p> 
-                {/* </a> */}
+                </a>
                 </div>
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
-                {/* <a href='/categoryShop'> */}
+                <a href='/Attractions/#Downtown'>
                 <img src={Downtown} alt="downtown"/> 
                     <p className="bottom-left">VISIT DOWNTOWN</p> 
-                {/* </a> */}
+                </a>
                 </div>
                 </div>   
                 <div className="imgWithText">
                 <div className="gridElements">
-                {/* <a href='/categoryShop'> */}
+                <a href='/Attractions/#Newport'>
                 <img src={Newport} alt="Newport"/> 
                     <p className="bottom-left">VISIT NEWPORT</p> 
-                {/* </a> */}
+                </a>
                 </div>
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
-                {/* <a href='/categoryShop'> */}
+                <a href='/Attractions/#Liberty'>
                 <img src={Liberty} alt="Liberty Center"/> 
                     <p className="bottom-left">VISIT LIBERTY CENTER</p> 
-                {/* </a> */}
+                </a>
                 </div>
                 </div>  
     </div> 
