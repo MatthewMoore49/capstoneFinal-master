@@ -6,9 +6,9 @@ import FooterHome from './FooterHome';
 import Home from './pages/Home';
 import About from './pages/About';
 // import Attractions from './pages/Attractions';
-// import Contact from './pages/Contact';
+ import Contact from './pages/Contact';
 import './styles/Main.css';
-import Contact from './pages/Contact';
+
 
 
 
@@ -20,7 +20,7 @@ const App = () => {
     <Navbar/>
     <Route exact path = '/home' component={Home}/>
      <Route path = '/about' component={About}/>
-    {/* <Route path = '/contact' component={Contact}/> */}
+    { <Route path = '/contact' component={Contact}/> }
     {/* <Route path = '/Sports' component={Sports}/> */}
     {/* <Route path = '/Casinos' component={Casinos}/> */}
     {/* <Route path = '/Venues' component={Music_Venues}/> */}
