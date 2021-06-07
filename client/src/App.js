@@ -8,6 +8,21 @@ import About from './pages/About';
 import Attractions from './pages/Attractions';
 import Contact from './pages/Contact';
 import './styles/Main.css';
+// import router from './routes/auth';
+
+
+// app.use(express.json())
+// app.use(require('./routes/auth'))
+
+
+// router.get('./', (req,res)=>{
+//   res.send("hello")
+// })
+
+
+// router.post('/signup', (req,res)=>{
+//   console.log(req.body.name)
+// })
 
 
 
@@ -33,6 +48,12 @@ const App = () => {
     </BrowserRouter>
   );
 }
+
+
+// app.listen(5000,() => {
+//   console.log('express server started');
+// });
+
 export default App;
 
 
