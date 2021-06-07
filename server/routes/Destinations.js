@@ -4,9 +4,8 @@ import axios from 'axios';
 // import Card from 'react-bootstrap/Card';
 import {BACKEND_URL} from '../config'
 import '../styles/Attractions.css'
-import FooterHome from '../components/FooterHome'
 
-const Desination = (props) => {
+const Destination = (props) => {
     return (
         <div className='allDestinations'>
             <div className='destinationsCard'>
@@ -48,12 +47,27 @@ export default class Destinations extends Component {
             console.log(error)
         });
     }
-   SList() {
-        return this.state.destinations.map((currentDestination) => {
-            return <Destination destination = {currentDestination} key={currentDestination._id} />
-        })
-    }
-
+    VisitOtrList() {
+         return this.state.destinations.map((currentDestination) => {
+             return <Destination destination = {currentDestination} key={currentDestination._id} />
+         })
+     }
+     VisitDowntownList() {
+         return this.state.destinations.map((currentDestination) => {
+             return <Destination destination = {currentDestination} key={currentDestination._id} />
+         })
+     }
+     VisitNewportKyList() {
+         return this.state.destinations.map((currentDestination) => {
+             return <Destination destination = {currentDestination} key={currentDestination._id} />
+         })
+     }
+     VisitLibertyCenterList() {
+         return this.state.destinations.map((currentDestination) => {
+             return <Destination destination = {currentDestination} key={currentDestination._id} />
+         })
+     }
+    
     render() {
         return (
             this.state.loading === false ? (
@@ -71,7 +85,7 @@ export default class Destinations extends Component {
                     </div>  </div>
 
                     <div className='destinationsContainer'>
-                    <h2 className='VisitNewportKyHeader'>Visit Newport, KY</h2>
+                    <h2 className='VisitNewportKyHeader'>Visit Newport</h2>
                     <div className='VisitNewportKyInnerContainer'>
                         {this.VisitNewportKyList()}
                     </div>  </div>
@@ -81,12 +95,6 @@ export default class Destinations extends Component {
                     <div className='VisitLibertyCenterInnerContainer'>
                         {this.VisitLibertyCenterList()}
                     </div>  </div>
-
-                    <div className='destinationsContainer'>
-                    <h2 className='VisitLibertyCenterHeader'>Visit Liberty Center </h2>
-                    <div className='VisitLibertyCenterInnerContainer'>
-                        {this.VisitLibertyCenterList()}
-                    </div>  </div>   
                     </div>
             ) : (
                 <div>
