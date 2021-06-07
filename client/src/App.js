@@ -8,6 +8,21 @@ import About from './pages/About';
 import Attractions from './pages/Attractions';
 import Contact from './pages/Contact';
 import './styles/Main.css';
+// import router from './routes/auth';
+
+
+// app.use(express.json())
+// app.use(require('./routes/auth'))
+
+
+// router.get('./', (req,res)=>{
+//   res.send("hello")
+// })
+
+
+// router.post('/signup', (req,res)=>{
+//   console.log(req.body.name)
+// })
 
 
 
@@ -19,12 +34,8 @@ const App = () => {
     <Navbar/>
     <Route exact path = '/home' component={Home}/>
      <Route path = '/about' component={About}/>
-<<<<<<< HEAD
-    {<Route path = '/contact' component={Contact}/> }
-=======
     <Route path = '/contact' component={Contact}/>
     <Route path = '/Attractions' component={Attractions}/>
->>>>>>> 58380a06693158e5ff9db40f083fc66a2f07e9c2
     {/* <Route path = '/Sports' component={Sports}/> */}
     {/* <Route path = '/Casinos' component={Casinos}/> */}
     {/* <Route path = '/Venues' component={Music_Venues}/> */}
@@ -37,6 +48,12 @@ const App = () => {
     </BrowserRouter>
   );
 }
+
+
+// app.listen(5000,() => {
+//   console.log('express server started');
+// });
+
 export default App;
 
 
