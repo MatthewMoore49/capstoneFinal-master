@@ -62,30 +62,51 @@ export default class Attractions extends Component {
                     <h2 className='SportsHeader'>Sports</h2>
                     <div className='SportsInnerContainer'>
                         {this.SportsList()}
-                    </div>
-                    <div className='row'>
+                    </div>  </div>
+                   
                 <div className='attractionsContainer'>
                     <h2 className='CasinosHeader'>Casino's</h2>
                     <div className='CasinosInnerContainer'>
                         {this.CasinosList()}
-                    </div>
-                    <div className='row'>
+                    </div>  </div>
+                   
                 <div className='attractionsContainer'>
                     <h2 className='Our_FavoritesHeader'>Our Favorites</h2>
                     <div className='Our_FavoritesInnerContainer'>
                         {this.Our_FavoritesList()}
-                    </div>
-                    <div className='row'>
+                    </div>  </div>
+                   
                 <div className='attractionsContainer'>
                     <h2 className='Music_VenuesHeader'>Music Venues</h2>
                     <div className='Music_VenuesInnerContainer'>
                         {this.Music_VenuesList()}
-                    </div>
-                    <div className='row'>
+                    </div>  </div>
+                    
                 <div className='attractionsContainer'>
                     <h2 className='ParksHeader'>Parks</h2>
                     <div className='ParksInnerContainer'>
                         {this.ParksList()}
+                    </div>  </div>
+                   
+                <div className='attractionsContainer'>
+                    <h2 className='MuseumHeader'>Museums</h2>
+                    <div className='MuseumInnerContainer'>
+                        {this.MuseumList()}
+                    </div>  </div>
+
+                    <div className='attractionsContainer'>
+                    <h2 className='RestaurantsHeader'>Restaurants</h2>
+                    <div className='RestaurantsInnerContainer'>
+                        {this.RestaurantsList()}
+                    </div>  </div>
+
+                    <div className='attractionsContainer'>
+                    <h2 className='BreweriesHeader'>Breweries</h2>
+                    <div className='BreweriesInnerContainer'>
+                        {this.BreweriesList()}
+                    </div>  </div>
+
+               
                     </div>
             ) : (
                 <div>
