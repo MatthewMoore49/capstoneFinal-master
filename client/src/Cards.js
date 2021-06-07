@@ -62,6 +62,13 @@ const Cards = () => {
                     <p className="bottom-left">FOOD</p> 
                 </a>
                 </div>
+                </div> <div className="imgWithText">
+                <div className="gridElements">
+                <a href='/Attractions/#OTR'>
+                <img src={OTR} alt="OTR"/> 
+                    <p className="bottom-left">VISIT OTR</p> 
+                </a>
+                </div>
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
@@ -79,11 +86,19 @@ const Cards = () => {
                 </a>
                 </div>
                 </div>  
+                   <div className="imgWithText">
+                <div className="gridElements">
+                <a href='/Attractions/#Liberty'>
+                <img src={Liberty} alt="Liberty Center"/> 
+                    <p className="bottom-left">VISIT LIBERTY CENTER</p> 
+                </a>
+                </div>
+                </div>     
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions/#OTR'>
-                <img src={OTR} alt="OTR"/> 
-                    <p className="bottom-left">VISIT OTR</p> 
+                <a href='/Attractions/#Newport'>
+                <img src={Newport} alt="Newport"/> 
+                    <p className="bottom-left">VISIT NEWPORT</p> 
                 </a>
                 </div>
                 </div>  
@@ -95,22 +110,8 @@ const Cards = () => {
                 </a>
                 </div>
                 </div>   
-                <div className="imgWithText">
-                <div className="gridElements">
-                <a href='/Attractions/#Newport'>
-                <img src={Newport} alt="Newport"/> 
-                    <p className="bottom-left">VISIT NEWPORT</p> 
-                </a>
-                </div>
-                </div>  
-                <div className="imgWithText">
-                <div className="gridElements">
-                <a href='/Attractions/#Liberty'>
-                <img src={Liberty} alt="Liberty Center"/> 
-                    <p className="bottom-left">VISIT LIBERTY CENTER</p> 
-                </a>
-                </div>
-                </div>  
+            
+               
     </div> 
    
     )

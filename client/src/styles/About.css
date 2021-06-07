@@ -6,19 +6,33 @@
     margin-bottom: 20px;
     /* filter: grayscale(1); */
     z-index: 0;
+    /* background-attachment: fixed; */
 }
+
+.item {
+    width: 200px;
+    height: 200px;
+    margin: 50px auto;
+    padding-top: 75px;
+    background: #ccc;
+    text-align: center;
+    color: #FFF;
+    font-size: 3em;
+  }
+  
 
 .abouthover:hover {
     background-image: url(../assets/AboutImgs/5.png);
     background-size: cover;
     /* filter: grayscale(0); */
+    /* background-attachment: fixed; */
 }
 
 .abouthover h1 {
     font-family: 'Kaushan Script';
     color: #F8F9FA;
     text-align: center;
-    font-size: 75px;
+    font-size: 60px;
     text-shadow: 2px 2px 3px #495057;
     /*  495057  6C757D ADB5BD CED4DA */
 }
@@ -31,7 +45,7 @@
 .aboutheader h2 {
     padding-top: 25px;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
 }
 
 .crown {

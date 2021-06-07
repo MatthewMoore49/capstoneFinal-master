@@ -15,7 +15,7 @@ const Home = () => {
                 <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
             </div>
                 <div className='blurb'>
-                    <p>this is a blurb about cincinnati</p>
+                    {/* <p>this is a blurb about cincinnati</p> */}
                 </div>
                 <Cards />
         </div>
