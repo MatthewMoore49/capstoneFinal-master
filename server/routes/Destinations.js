@@ -82,11 +82,7 @@ export default class Destinations extends Component {
                         {this.VisitLibertyCenterList()}
                     </div>  </div>
 
-                    <div className='destinationsContainer'>
-                    <h2 className='VisitLibertyCenterHeader'>Visit Liberty Center </h2>
-                    <div className='VisitLibertyCenterInnerContainer'>
-                        {this.VisitLibertyCenterList()}
-                    </div>  </div>   
+                   
                     </div>
             ) : (
                 <div>
