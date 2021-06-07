@@ -1,118 +1,67 @@
-import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
-import axios from 'axios';
-// import Card from 'react-bootstrap/Card';
-import {BACKEND_URL} from '../config'
-import '../styles/Attractions.css'
-import FooterHome from '../components/FooterHome'
+const router = require('express').Router()
+let Attraction = require('../models/attractions.model')
 
-const Attraction = (props) => {
-    return (
-        <div className='allAttractions'>
-            <div className='attractionsCard'>
-                <div className='cardImage'>
-                    <img className='attractionImage'src={props.attraction.imageURL} alt='attraction picture' />
-                </div>
-                <div>
-                    <div className='text-name'>{props.attraction.name}</div>
-                    <div className='text-link'>
-                        <Link className='link-details' Link to={"attractions/" + props.attraction._id}>Details</Link>
-                    </div>
-                    <div className='website'>
-                        <a className='link-site' href={props.attraction.website} target="_blank" rel="noreferrer">Website</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    )
-}
-
-export default class Attractions extends Component {
-    constructor(props) {
-        super(props)
-        this.state = {
-            attractions:[],
-            loading: true
-        };
-    }
-    componentDidMount() {
-        axios.get(BACKEND_URL + 'attractions/')
-        .then(response => {
-            this.setState({
-                attractions: response.data,
-                loading: false
-            })
-            console.log('this is the list of attractions')
-        })
-        .catch((error) => {
-            console.log(error)
+router.route('/').get((req, res) => {
+    Attraction.find()
+    .then(attraction =>
+        res.json(attraction))
+        .catch((err) => {
+            res.status(400).json('Error: ' + err)
         });
-    }
-   SList() {
-        return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+});
+
+router.route('/:id').get((req, res) => {
+    Attraction.findById(req.params.id)
+    .then((attraction) =>{
+        res.json(attraction)
+    }).catch((err) => {
+        res.status(400).json('Error ' + err)
+    });
+}).put((req,res)=>{
+    Attraction.findById(req.params.id)
+        .then((attraction)=>{
+            attraction.name = req.body.name
+            attraction.description = req.body.description
+            attraction.website = req.body.website
+            attraction.imageURL = req.body.imageURL
+            attraction.address = req.body.location.address
+            attraction.city = req.body.location.city
+            attraction.state = req.body.location.state
+            attraction.zipcode = req.body.location.zipcode
         })
-    }
+    .catch((err) => {
+        res.status(400).json('Error ' + err)
+    });
+});
 
-    render() {
-        return (
-            this.state.loading === false ? (
-                <div className='row'>
-                <div className='attractionsContainer'>
-                    <h2 className='SportsHeader'>Sports</h2>
-                    <div className='SportsInnerContainer'>
-                        {this.SportsList()}
-                    </div>  </div>
-                   
-                <div className='attractionsContainer'>
-                    <h2 className='CasinosHeader'>Casino's</h2>
-                    <div className='CasinosInnerContainer'>
-                        {this.CasinosList()}
-                    </div>  </div>
-                   
-                <div className='attractionsContainer'>
-                    <h2 className='Our_FavoritesHeader'>Our Favorites</h2>
-                    <div className='Our_FavoritesInnerContainer'>
-                        {this.Our_FavoritesList()}
-                    </div>  </div>
-                   
-                <div className='attractionsContainer'>
-                    <h2 className='Music_VenuesHeader'>Music Venues</h2>
-                    <div className='Music_VenuesInnerContainer'>
-                        {this.Music_VenuesList()}
-                    </div>  </div>
-                    
-                <div className='attractionsContainer'>
-                    <h2 className='ParksHeader'>Parks</h2>
-                    <div className='ParksInnerContainer'>
-                        {this.ParksList()}
-                    </div>  </div>
-                   
-                <div className='attractionsContainer'>
-                    <h2 className='MuseumHeader'>Museums</h2>
-                    <div className='MuseumInnerContainer'>
-                        {this.MuseumList()}
-                    </div>  </div>
+router.route('/add').post((req, res) => {
+    const name = req.body.name
+    const description = req.body.description
+    const website = req.body.website
+    const imageURL = req.body.imageURL
+    const address = req.body.location.address
+    const city = req.body.location.city
+    const state = req.body.location.state
+    const zipcode = req.body.location.zipcode
+    const newAttraction = new Attraction ({
+        name,
+        description,
+        website,
+        imageURL,
+        location:{
+        address,
+        city,
+        state,
+        zipcode
+        },
+        })
+    newAttraction.save()
+        .then(()=>{
+            res.json('Attraction Added')
+            })
+            .catch((err)=>{
+                res.status(400).json("Error: " + err)
+            })
+})
 
-                    <div className='attractionsContainer'>
-                    <h2 className='RestaurantsHeader'>Restaurants</h2>
-                    <div className='RestaurantsInnerContainer'>
-                        {this.RestaurantsList()}
-                    </div>  </div>
-
-                    <div className='attractionsContainer'>
-                    <h2 className='BreweriesHeader'>Breweries</h2>
-                    <div className='BreweriesInnerContainer'>
-                        {this.BreweriesList()}
-                    </div>  </div>
-
-               
-                    </div>
-            ) : (
-                <div>
-                    <h1 className="loading-spinner">Loading...</h1>
-                </div>
-            )
-        )
-    }
-}
+module.exports = router;

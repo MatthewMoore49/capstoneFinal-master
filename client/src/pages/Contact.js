@@ -1,5 +1,8 @@
 import React from 'react';
 import axios from 'axios';
+import '../styles/Contact.css';
+
+
 
 class Contact extends React.Component {
 
@@ -34,21 +37,23 @@ class Contact extends React.Component {
 
   render() {
     return(
-      <div className="App">
+    
+      <div className="contact">
         <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} method="POST">
           <div className="form-group">
+          
               <label htmlFor="name">Name</label>
               <input type="text" className="form-control" id="name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
           </div>
-          <div className="form-group">
+          <div className=" contact-form-group ">
               <label htmlFor="exampleInputEmail1">Email address</label>
               <input type="email" className="form-control" id="email" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
           </div>
-          <div className="form-group">
+          <div className="contact-form-group ">
               <label htmlFor="message">Message</label>
               <textarea className="form-control" rows="5" id="message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
           </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
+          <button type="submit" className="contact btn btn-primary">Submit</button>
         </form>
       </div>
     );
@@ -68,7 +73,6 @@ class Contact extends React.Component {
 }
 
 export default Contact;
-
 
    
 

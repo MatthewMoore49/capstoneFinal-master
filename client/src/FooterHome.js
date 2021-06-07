@@ -1,4 +1,9 @@
 import React from 'react';
+import '../src/styles/Footer.css';
+
+
+
+
 const FooterHome = () => (
   <div className="footer-home">
     <div className="footer-info">

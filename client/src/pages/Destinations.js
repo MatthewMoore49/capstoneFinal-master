@@ -72,34 +72,29 @@ export default class Destinations extends Component {
         return (
             this.state.loading === false ? (
                 <div className='row'>
-                <div className='destinationsContainer'>
+                <div className='OTRContainer' id='OTR'>
                     <h2 className='VisitOtrHeader'>Visit OTR</h2>
                     <div className='VisitOtrInnerContainer'>
                         {this.VisitOtrList()}
                     </div>  </div>
                    
-                    <div className='destinationsContainer'>
+                    <div className='DowntownContainer' id='Downtown'>
                     <h2 className='VisitDowntownHeader'>Visit Downtown</h2>
                     <div className='VisitDowntownInnerContainer'>
                         {this.VisitDowntownList()}
                     </div>  </div>
 
-                    <div className='destinationsContainer'>
+                    <div className='NewportContainer' id='Newport'>
                     <h2 className='VisitNewportKyHeader'>Visit Newport</h2>
                     <div className='VisitNewportKyInnerContainer'>
                         {this.VisitNewportKyList()}
                     </div>  </div>
              
-                    <div className='destinationsContainer'>
+                    <div className='LibertyContainer' id='Liberty'>
                     <h2 className='VisitLibertyCenterHeader'>Visit Liberty Center </h2>
                     <div className='VisitLibertyCenterInnerContainer'>
                         {this.VisitLibertyCenterList()}
                     </div>  </div>
-<<<<<<< HEAD
-
-                   
-=======
->>>>>>> 58380a06693158e5ff9db40f083fc66a2f07e9c2
                     </div>
             ) : (
                 <div>
