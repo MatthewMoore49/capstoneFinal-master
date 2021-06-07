@@ -1,3 +1,5 @@
+import Attractions from '../routes/Attractions';
+
 const mongoose = require('mongoose')
 const Schema = mongoose.Schema;
 const attractionSchema = new Schema({
@@ -17,5 +19,5 @@ const attractionSchema = new Schema({
             type: String,
         }
       });
-const Attraction = mongoose.model('Attraction', attractionSchema);
-export default Attraction
+const Attraction = mongoose.model('Attraction', attractionsSchema);
+export default Attractions

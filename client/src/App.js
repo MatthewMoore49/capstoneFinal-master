@@ -21,7 +21,14 @@ const App = () => {
     <Route exact path = '/home' component={Home}/>
      <Route path = '/about' component={About}/>
     {/* <Route path = '/contact' component={Contact}/> */}
-    {/* <Route path = '/attractions' component={Attractions}/> */}
+    {/* <Route path = '/Sports' component={Sports}/> */}
+    {/* <Route path = '/Casinos' component={Casinos}/> */}
+    {/* <Route path = '/Venues' component={Music_Venues}/> */}
+    {/* <Route path = '/OurFavorites' component={Our_Favorites}/> */}
+    {/* <Route path = '/Parks' component={Parks}/> */}
+    {/* <Route path = '/Restaurants' component={Restaurants}/> */}
+    {/* <Route path = '/Breweries' component={Breweries}/> */}
+  
     <FooterHome />
     </div>
     </BrowserRouter>
