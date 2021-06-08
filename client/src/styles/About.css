@@ -10,16 +10,15 @@
 }
 
 .item {
-    width: 200px;
+    width: auto;
     height: 200px;
     margin: 50px auto;
     padding-top: 75px;
-    background: #ccc;
+    background: #E9ECEF;
     text-align: center;
-    color: #FFF;
-    font-size: 3em;
+    color: #495057;
+    font-size: 1.5em;
   }
-  
 
 .abouthover:hover {
     background-image: url(../assets/AboutImgs/5.png);

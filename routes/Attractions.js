@@ -20,44 +20,36 @@ router.route('/:id').get((req, res) => {
 }).put((req,res)=>{
     Attraction.findById(req.params.id)
         .then((attraction)=>{
-            attraction.name = req.body.name
+            attraction.title = req.body.title
             attraction.description = req.body.description
-            attraction.website = req.body.website
             attraction.imageURL = req.body.imageURL
-            attraction.address = req.body.location.address
-            attraction.city = req.body.location.city
-            attraction.state = req.body.location.state
-            attraction.zipcode = req.body.location.zipcode
+            attraction.website = req.body.website
+            attraction.location = req.body.location
         })
     .catch((err) => {
         res.status(400).json('Error ' + err)
     });
 });
 
-router.route('/add').post((req, res) => {
-    const name = req.body.name
+router.route('/add').post((req, res) => { 
+    const title = req.body.title;
     const description = req.body.description
-    const website = req.body.website
     const imageURL = req.body.imageURL
-    const address = req.body.location.address
-    const city = req.body.location.city
-    const state = req.body.location.state
-    const zipcode = req.body.location.zipcode
+    const website = req.body.website
+    const location = req.body.location   
+    
     const newAttraction = new Attraction ({
-        name,
+        title,
         description,
-        website,
         imageURL,
-        location:{
-        address,
-        city,
-        state,
-        zipcode
-        },
+        website,
+        location         
         })
     newAttraction.save()
         .then(()=>{
+           console.log(req.body);
             res.json('Attraction Added')
+            
             })
             .catch((err)=>{
                 res.status(400).json("Error: " + err)

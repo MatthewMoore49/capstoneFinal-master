@@ -20,21 +20,17 @@ const About = () => {
           <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
       </div>
           <div className='aboutblurb'>
-          <div class="item" data-aos="fade-up">1</div>
-<div class="item" data-aos="fade-down">2</div>
-<div class="item" data-aos="fade-right">3</div>
-<div class="item" data-aos="fade-left">4</div>
+          <div class="item" data-aos="fade-up">Opening Day will shut the city down. As home to the first pro baseball team, we take the sport very seriously</div>
+<div class="item" data-aos="fade-down">Our food & beer scene can't be beat - the Taste of Cincinnati is the country's longest running culinary festival</div>
+<div class="item" data-aos="fade-right">We are home to the nation's first professional, paid fire department</div>
+<div class="item" data-aos="fade-left">Zinzinnati, the country's biggest Oktoberfest takes place here...</div>
 
-<div class="item" data-aos="zoom-in">5</div>
-<div class="item" data-aos="zoom-out">6</div>
-
-<div class="item" data-aos="slide-up">7</div>
-
-<div class="item" data-aos="flip-up">8</div>
-<div class="item" data-aos="flip-down">9</div>
-<div class="item" data-aos="flip-right">10</div>
-<div class="item" data-aos="flip-left">11</div>
-
+<div class="item" data-aos="zoom-in">...and the "Least Metal Moment" of all time happened at Zinzinnati in the early '00s when Mötley Crüe’s Vince Neil led the crowd in the “World’s Largest Chicken Dance” on Fountain Square</div>
+<div class="item" data-aos="zoom-out">Two Cincinnatians created the Magic 8-Ball</div>
+<div class="item" data-aos="slide-up">The first newspaper printed in the Northwest Territory was published in Cincinnati in 1793 weekly until 1796</div>
+<div class="item" data-aos="flip-up">Cincinnati chili is the best chili</div>
+<div class="item" data-aos="flip-down">The inventor of the Pringles can is burried here...in a Pringles can</div>
+<div class="item" data-aos="flip-right">We have the best zoo in the nation</div>
           </div>
         </div>
     )
