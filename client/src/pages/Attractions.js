@@ -4,6 +4,7 @@ import axios from 'axios';
 // import Card from 'react-bootstrap/Card';
 import {BACKEND_URL} from '../config'
 import '../styles/Attractions.css'
+//import { db } from '../../../models/AttractionSchema';
 
 
 const Attraction = (props) => {
@@ -46,22 +47,11 @@ export default class Attractions extends Component {
         });
     }
 
-
     SportsList() {
-        // filteredSport = [];
-        // this.sport.forEach(function (s){
-        //     if (s.sport ===)
-        // })
         return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
-        })/*this.state.loading === false ? (
-            <div className='row'>
-            <div className='SportsContainer' id='Sports'>
-                <h2 className='SportsHeader'>Sports</h2>
-                <div className='SportsInnerContainer'>
-                    {this.SportsList()}
-                </div>  </div>*/
-    }
+           return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+        })
+   }
     CasinosList() {
         return this.state.attractions.map((currentAttraction) => {
             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
