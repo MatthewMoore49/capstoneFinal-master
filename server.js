@@ -21,22 +21,6 @@ const attractionsRouter = require('./routes/attractions')
 // const contactRouter = require('./routes/contact')
 
 app.use('/attractions', attractionsRouter)
-// app.use('/contact', contactRouter)
-
-// router.get('./', (req,res)=>{
-//   res.send("hello")
-// })
-
-
-// router.post('/signup', (req,res)=>{
-//   console.log(req.body.name)
-// })
-
-
-// mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex:true })
-//   .then(() => app.listen(PORT, () => console.log('Server is running on PORT: ${PORT}')))
-//   .catch((error) => console.log(error.message));
-//   mongoose.set('useFindAndModify', false);
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 
