@@ -36,7 +36,7 @@ export default class Attractions extends Component {
         axios.get(BACKEND_URL + 'attractions/')
         .then(response => {
             this.setState({
-                attractions: rgit pull origin masteresponse.data,
+                attractions: response.data,
                 loading: false
             })
             console.log('this is the list of attractions')
@@ -48,10 +48,10 @@ export default class Attractions extends Component {
 
 
     SportsList() {
-        filteredSport = [];
-        this.sport.forEach(function (s){
-            if (s.sport ===)
-        })
+        // filteredSport = [];
+        // this.sport.forEach(function (s){
+        //     if (s.sport ===)
+        // })
         return this.state.attractions.map((currentAttraction) => {
             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
         })
