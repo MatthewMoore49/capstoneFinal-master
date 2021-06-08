@@ -7,11 +7,13 @@
     color: grey;
 }
 #footer_background{
-    background-color: #212529;
+    padding: 0 !important;
     color: #E9ECEF;
     margin: 0;
 }
 #profileContainer{
-    width: 80%;
-   margin: auto;
+    width: 100%;
+   margin: 0!important;
+    background-color: #212529;
+    
 }

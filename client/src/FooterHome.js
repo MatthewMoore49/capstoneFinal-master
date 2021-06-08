@@ -4,7 +4,7 @@
   import {FaGithub, FaLinkedin, FaUserCircle} from 'react-icons/fa'
 
   const FooterHome = () => (
-  <footer className="container py-5 w-100 text-center" id='footer_background'>
+  <footer className="container py-5  text-center sticky-bottom" id='footer_background'>
     <div className="row " id='profileContainer'>
      
       <div className="col-6 col-md">
