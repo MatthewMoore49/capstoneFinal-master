@@ -1,12 +1,6 @@
 const router = require('express').Router()
 let Attraction = require('../models/AttractionSchema')
-/*this.state.loading === false ? (
-    <div className='row'>
-    <div className='SportsContainer' id='Sports'>
-        <h2 className='SportsHeader'>Sports</h2>
-        <div className='SportsInnerContainer'>
-            {this.SportsList()}
-        </div>  </div>*/
+
 router.route('/').get((req, res) => {
     Attraction.find()
     .then(attraction =>
