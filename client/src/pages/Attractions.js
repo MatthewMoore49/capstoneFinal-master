@@ -46,7 +46,12 @@ export default class Attractions extends Component {
         });
     }
 
+
     SportsList() {
+        filteredSport = [];
+        this.sport.forEach(function (s){
+            if (s.sport ===)
+        })
         return this.state.attractions.map((currentAttraction) => {
             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
         })
