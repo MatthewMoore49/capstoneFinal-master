@@ -1,11 +1,3 @@
-.footerdiv{
-    align-content: center;
-    
-}
-
-.footertext{
-    color: grey;
-}
 #footer_background{
     padding: 0 !important;
     color: #E9ECEF;
@@ -15,5 +7,16 @@
     width: 100%;
    margin: 0!important;
     background-color: #212529;
-    
+}
+
+#profileContainer.row {
+    padding-top: 30px;
+}
+
+.footericon {
+   margin-bottom: 7px;
+}
+
+#footerprofile ul li {
+    float: left;
 }
