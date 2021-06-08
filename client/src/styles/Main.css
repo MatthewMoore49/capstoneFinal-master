@@ -46,7 +46,7 @@ code {
   .sidenav a {
       font-family: 'Oswald';
       color: #F8F9FA;
-      
+      text-decoration: none;
   }
 
   .sidenav a:hover{

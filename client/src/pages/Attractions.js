@@ -4,7 +4,7 @@ import axios from 'axios';
 import Card from 'react-bootstrap/Card';cd 
 import {BACKEND_URL} from '../config'
 import '../styles/Attractions.css'
-import { db } from '../../../models/AttractionSchema';
+import { Db } from 'mongodb';
 
 
 const Attraction = (props) => {
