@@ -1,5 +1,5 @@
 /* heroimage */
-.abouthover {
+.contacthover {
     background-image: url(../assets/ContactImgs/4.png);
     background-size: cover;
     /* background-attachment: fixed;
@@ -11,7 +11,7 @@
     
 }
 
-.abouthover:hover {
+.contacthover:hover {
     background-image: url(../assets/ContactImgs/4.png);
     background-size: cover;
     /* background-attachment: fixed;
@@ -19,7 +19,7 @@
     filter: grayscale(0);
 }
 
-.abouthover h1 {
+.contacthover h1 {
     font-family: 'Kaushan Script';
     color: #F8F9FA;
     text-align: center;
@@ -28,12 +28,12 @@
     /*  495057  6C757D ADB5BD CED4DA */
 }
 
-.aboutheader h1 {
+.contactheader h1 {
     font-family: 'Kaushan Script';
     text-align: center;
     padding-top: 50px;
 }
-.aboutheader h2 {
+.contactheader h2 {
     padding-top: 25px;
     text-align: center;
     padding-bottom: 50px;

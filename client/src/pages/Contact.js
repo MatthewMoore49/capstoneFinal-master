@@ -55,14 +55,14 @@ export default class contact extends Component {
   render() {
     return (
       <div className = 'contactPage'>
-      <div className="jumbotron jumbotron-fluid abouthover">
-      <div className="aboutcontainer">
+      <div className="jumbotron jumbotron-fluid contacthover">
+      <div className="contactcontainer">
               <h1>Contact Us</h1>
           </div>
       </div>
       <div className="contactReturn">
           {/* <h3 className='text-center'>Contact Us</h3> */}
-          <div className='aboutheader'>
+          <div className='contactheader'>
           <h1>The Queen City <span className='crown'><i class="fas fa-crown fa-xs"></i></span> Porkopolis <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The City That Sings <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The 'Nati</h1>
           <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
       </div>

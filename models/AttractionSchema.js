@@ -15,6 +15,9 @@ const attractionSchema = new Schema({
         },
         location: {
             type: String,
+        },
+        category: {
+            type: String,
         }
       });
 const Attraction = mongoose.model('Attraction', attractionSchema);
