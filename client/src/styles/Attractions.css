@@ -9,3 +9,12 @@
 .row {
     padding-left: 100px;
 }
+
+.attractionImage {
+    height: 250px;
+    filter: grayscale(1);
+}
+
+.attractionImage:hover {
+    filter: grayscale(0);
+}
