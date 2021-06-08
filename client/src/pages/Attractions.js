@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
+ import { Link } from 'react-router-dom';
 import axios from 'axios';
-// import Card from 'react-bootstrap/Card';
+import Card from 'react-bootstrap/Card';cd 
 import {BACKEND_URL} from '../config'
 import '../styles/Attractions.css'
-//import { db } from '../../../models/AttractionSchema';
+import { db } from '../../../models/AttractionSchema';
 
 
 const Attraction = (props) => {
