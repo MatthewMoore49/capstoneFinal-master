@@ -3,3 +3,15 @@
     
 }
 
+.footertext{
+    color: grey;
+}
+#footer_background{
+    background-color: #212529;
+    color: #E9ECEF;
+    margin: 0;
+}
+#profileContainer{
+    width: 80%;
+   margin: auto;
+}
