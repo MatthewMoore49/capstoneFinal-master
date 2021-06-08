@@ -18,9 +18,11 @@ app.use(express.json())
 
 
 const attractionsRouter = require('./routes/attractions')
+const restaurantsRouter = require('./routes/restaurants')
 // const contactRouter = require('./routes/contact')
 
 app.use('/attractions', attractionsRouter)
+app.use('/restaurants', restaurantsRouter)
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 

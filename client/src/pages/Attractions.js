@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
  import { Link } from 'react-router-dom';
 import axios from 'axios';
-import Card from 'react-bootstrap/Card';cd 
+import Card from 'react-bootstrap/Card';
 import {BACKEND_URL} from '../config'
 import '../styles/Attractions.css'
 import { Db } from 'mongodb';
@@ -30,14 +30,17 @@ export default class Attractions extends Component {
         super(props)
         this.state = {
             attractions:[],
+            restaurants:[],
             loading: true
         };
     }
     componentDidMount() {
         axios.get(BACKEND_URL + 'attractions/')
+        axios.get(BACKEND_URL + 'restaurants/')
         .then(response => {
             this.setState({
                 attractions: response.data,
+                restaurants:response.data,
                 loading: false
             })
             console.log('this is the list of attractions')
@@ -78,7 +81,7 @@ export default class Attractions extends Component {
         })
     }
    RestaurantsList() {
-        return this.state.attractions.map((currentAttraction) => {
+        return this.state.restaurants.map((currentAttraction) => {
             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
         })
     }
@@ -149,8 +152,8 @@ export default class Attractions extends Component {
                         {this.MuseumList()}
                     </div>  </div>
 
-                    <div className='RestaurantsContainer' id='Restaurants'>
-                    <h2 className='RestaurantsHeader'>Restaurants</h2>
+                    <div className='RestaurantsContainer' >
+                    <h2 className='RestaurantsHeader' id='Restaurants'>Restaurants</h2>
                     <div className='RestaurantsInnerContainer'>
                         {this.RestaurantsList()}
                     </div>  </div>

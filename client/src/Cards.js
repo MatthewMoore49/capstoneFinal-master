@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import Breweries from './assets/HomeImgs/squares/breweries.png';
 import Casinos from './assets/HomeImgs/squares/casino.png';
 import Downtown from './assets/HomeImgs/squares/downtown.png';
@@ -57,10 +58,14 @@ const Cards = () => {
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions/#Restaurants'>
+                <Link to={{
+                    pathname:"/Attractions",
+                    hash:"#Restaurants",
+                }}
+                >
                 <img src={Food} alt="food"/> 
                     <p className="bottom-left">FOOD</p> 
-                </a>
+                </Link>
                 </div>
                 </div> <div className="imgWithText">
                 <div className="gridElements">
