@@ -15,28 +15,28 @@
       </div>
       <div className="col-6 col-md">
         <h5>Rachel Kleshinski</h5>
-        <ul className="list-unstyled text-small">
-          <li><a className="link-secondary" href="https://github.com/rachelk920"> <FaGithub size={40}/></a></li>
-          <li><a className="link-secondary" href="https://rachelk920.github.io/portfolio/"><FaUserCircle size={40}/></a></li>
-          <li><a className="link-secondary" href="https://www.linkedin.com/in/rachel-kleshinski/"><FaLinkedin size={40}/></a></li>
+        <ul className="list-unstyled text-small" id='footerprofile'>
+          <li><a className="link-secondary" href="https://github.com/rachelk920"> <FaGithub size={30} className='footericon'/></a></li>
+          <li><a className="link-secondary" href="https://rachelk920.github.io/portfolio/"><FaUserCircle size={30} className='footericon'/></a></li>
+          <li><a className="link-secondary" href="https://www.linkedin.com/in/rachel-kleshinski/"><FaLinkedin size={30} className='footericon'/></a></li>
         
         </ul>
       </div>
       <div className="col-6 col-md">
         <h5>Matt Moore</h5>
         <ul className="list-unstyled text-small">
-        <li><a className="link-secondary" href="https://github.com/MatthewMoore49"> <FaGithub size={40}/></a></li>
-          <li><a className="link-secondary" href="https://matthewmoore49.github.io/portfolio/"><FaUserCircle size={40}/></a></li>
-          <li><a className="link-secondary" href="https://www.linkedin.com/in/matthew-m-a3771390/"><FaLinkedin size={40}/></a></li>
+        <li><a className="link-secondary" href="https://github.com/MatthewMoore49"> <FaGithub size={30} className='footericon'/></a></li>
+          <li><a className="link-secondary" href="https://matthewmoore49.github.io/portfolio/"><FaUserCircle size={30} className='footericon'/></a></li>
+          <li><a className="link-secondary" href="https://www.linkedin.com/in/matthew-m-a3771390/"><FaLinkedin size={30} className='footericon'/></a></li>
         
         </ul>
       </div>
       <div className="col-6 col-md">
         <h5>Ro Larkins</h5>
         <ul className="list-unstyled text-small">
-        <li><a className="link-secondary" href="https://github.com/RoLarkins"> <FaGithub size={40}/></a></li>
-          <li><a className="link-secondary" href="https://rolarkins.github.io/portfolio/"><FaUserCircle size={40}/></a></li>
-          <li><a className="link-secondary" href="https://www.linkedin.com/in/roosevelt-larkins-a57ba4158/"><FaLinkedin size={40}/></a></li>
+        <li><a className="link-secondary" href="https://github.com/RoLarkins"> <FaGithub size={30} className='footericon'/></a></li>
+          <li><a className="link-secondary" href="https://rolarkins.github.io/portfolio/"><FaUserCircle size={30} className='footericon'/></a></li>
+          <li><a className="link-secondary" href="https://www.linkedin.com/in/roosevelt-larkins-a57ba4158/"><FaLinkedin size={30} className='footericon'/></a></li>
        
         </ul>
       </div>
