@@ -36,7 +36,7 @@ export default class Attractions extends Component {
         axios.get(BACKEND_URL + 'attractions/')
         .then(response => {
             this.setState({
-                attractions: response.data,
+                attractions: rgit pull origin masteresponse.data,
                 loading: false
             })
             console.log('this is the list of attractions')
