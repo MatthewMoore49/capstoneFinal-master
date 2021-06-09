@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import About from './pages/About';
  import Attractions from './pages/Attractions';
  import Contact from './pages/Contact';
+ import Breweries from './pages/Breweries'
  import FooterHome from './FooterHome';
 import './styles/Main.css';
 // import router from './routes/auth';
@@ -43,7 +44,7 @@ const App = () => {
     {/* <Route path = '/OurFavorites' component={Our_Favorites}/> */}
     {/* <Route path = '/Parks' component={Parks}/> */}
     {/* <Route path = '/Restaurants' component={Restaurants}/> */}
-    {/* <Route path = '/Breweries' component={Breweries}/> */}
+    <Route path = '/Breweries' component={Breweries}/>
     <FooterHome />
     </div>
     </BrowserRouter>
