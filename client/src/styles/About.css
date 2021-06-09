@@ -9,6 +9,11 @@
     /* background-attachment: fixed; */
 }
 
+.aboutsecond {
+    font-family: Oswald;
+    font-weight: bolder;
+}
+
 .item {
     width: auto;
     height: 200px;
@@ -61,3 +66,26 @@
     margin-left: 15px;
     margin-right: 15px;
 }
+
+@media (max-width: 800px) {
+    .jumbotron h1 {
+      font-size: 2em;
+    }
+    .abouthover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      /* filter: none; */
+    }
+
+    .aboutheader h1{
+      font-size: 20px;
+    }
+
+    .aboutheader h2{
+      font-size: 20px;
+    }
+    .item {
+        font-size: .75em;
+    }
+  }

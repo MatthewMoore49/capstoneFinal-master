@@ -60,9 +60,29 @@
 .btn {
     font-family: 'Oswald';
     text-shadow: 1px 1px 2px #CED4DA;
-    font-size: 21px;
+    font-size: 21px !important;
+    background-color: #E9ECEF !important;
 }
 
+@media (max-width: 800px) {
+    .jumbotron h1 {
+      font-size: 2em;
+    }
+    .contacthover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      /* filter: none; */
+    }
+
+    .contactheader h1{
+      font-size: 20px;
+    }
+
+    .contactheader h2{
+      font-size: 20px;
+    }
+  }
 
  
 
