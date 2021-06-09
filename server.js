@@ -12,15 +12,15 @@ const PORT= process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 app.use(express.static('client/build'));
-const CONNECTION_URL = 'mongodb+srv://general:kableCap21@cluster0.dzt8m.mongodb.net/attractions?retryWrites=true&w=majority'
+const CONNECTION_URL = 'mongodb+srv://general:kableCap21@cluster0.dzt8m.mongodb.net/attractions?retryWrites=true&w=majority';
 
-app.use(express.json())
-
-
-const attractionsRouter = require('./routes/attractions')
+app.use(express.json());
 
 
-app.use('/attractions', attractionsRouter)
+const attractionsRouter = require('./routes/Attractions');
+
+
+app.use('/attractions', attractionsRouter);
 
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
