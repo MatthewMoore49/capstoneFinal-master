@@ -17,8 +17,8 @@ const CONNECTION_URL = 'mongodb+srv://general:kableCap21@cluster0.dzt8m.mongodb.
 app.use(express.json())
 
 
-const attractionsRouter = require('./routes/attractions')
-const restaurantsRouter = require('./routes/restaurants')
+const attractionsRouter = require('./routes/Attractions')
+const restaurantsRouter = require('./routes/Restaurants')
 // const contactRouter = require('./routes/contact')
 
 app.use('/attractions', attractionsRouter)
