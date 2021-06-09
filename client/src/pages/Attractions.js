@@ -80,7 +80,16 @@ export default class Attractions extends Component {
 
 
 
+<<<<<<< HEAD
   
+=======
+    AttractionsList() {
+        return this.state.attractions.map((currentAttraction) => {
+           return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+        })
+   }
+
+>>>>>>> 7717123fe3fd5b39c239bf43cf87046a6d096123
 
     render() {
         return (
@@ -96,7 +105,17 @@ export default class Attractions extends Component {
           <h1>The Queen City <span className='crown'><i class="fas fa-crown fa-xs"></i></span> Porkopolis <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The City That Sings <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The 'Nati</h1>
           <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
       </div>
+<<<<<<< HEAD
    
+=======
+                <div className='AttractionsContainer'>
+                    <h2 className='AttractionsHeader'></h2>
+                    <div className='AttractionsInnerContainer'>
+                        {this.AttractionsList()}
+                    </div>  </div>
+                   
+                    </div>
+>>>>>>> 7717123fe3fd5b39c239bf43cf87046a6d096123
             ) : (
                 <div>
                     <h1 className="loading-spinner">Loading...</h1>

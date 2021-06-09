@@ -1,0 +1,281 @@
+/* restaurant heroimage */
+.restauranthover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.restauranthover:hover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+/* breweries heroimage */
+.restauranthover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.restauranthover:hover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* casinos heroimage */
+.restauranthover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.restauranthover:hover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* downtown heroimage */
+.downtownhover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.downtownhover:hover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* liberty heroimage */
+.libertyhover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.libertyhover:hover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* museums heroimage */
+.restauranthover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.restauranthover:hover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* newport heroimage */
+.newporthover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.newporthover:hover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* Otr heroimage */
+.otrhover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.otrhover:hover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* favorites heroimage */
+.restauranthover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.restauranthover:hover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* parks heroimage */
+.restauranthover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.restauranthover:hover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* sports heroimage */
+.sporthover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.sporthover:hover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* music heroimage */
+.restauranthover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.restauranthover:hover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+
+
+.jumbotron h1 {
+    font-family: 'Kaushan Script';
+    color: #F8F9FA;
+    text-align: center;
+    font-size: 75px;
+    text-shadow: 2px 2px 3px #495057;
+    /*  495057  6C757D ADB5BD CED4DA */
+}
+
+.aboutheader h1 {
+    font-family: 'Kaushan Script';
+    text-align: center;
+    padding-top: 50px;
+}
+.aboutheader h2 {
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.singleattraction img {
+    filter: grayscale(1);
+    width: 25em;
+}
+
+.singleattraction img:hover {
+    filter: grayscale(0);
+}
