@@ -33,8 +33,7 @@ export default class Attractions extends Component {
         super(props)
         this.state = {
             attractions:[],
-            sports:[],
-            casinos:[],
+         
          
             
             loading: true
