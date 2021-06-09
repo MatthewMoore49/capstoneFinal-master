@@ -39,7 +39,6 @@ export default class Attractions extends Component {
         .then(response => {
             this.setState({
                 attractions: response.data,
-                restaurants:response.data,
                 loading: false
             })
             console.log('this is the list of attractions')
