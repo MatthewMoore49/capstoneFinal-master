@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 // const path = require('path');
-const router = require('./routes/Attractions')
+// const router = require('./routes/Attractions')
 require('dotenv').config();
 
 const app = express();
@@ -17,12 +17,11 @@ const CONNECTION_URL = 'mongodb+srv://general:kableCap21@cluster0.dzt8m.mongodb.
 app.use(express.json())
 
 
-const attractionsRouter = require('./routes/Attractions')
-// const restaurantsRouter = require('./routes/Restaurants')
-// const contactRouter = require('./routes/contact')
+const attractionsRouter = require('./routes/attractions')
+
 
 app.use('/attractions', attractionsRouter)
-app.use('/restaurants', restaurantsRouter)
+
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 

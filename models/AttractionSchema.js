@@ -21,4 +21,7 @@ const attractionSchema = new Schema({
         }
       });
 const Attraction = mongoose.model('Attraction', attractionSchema);
+const Casino = mongoose.model('Casino', attractionSchema);
+
+module.exports = Casino;
 module.exports = Attraction;

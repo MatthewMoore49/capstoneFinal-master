@@ -18,7 +18,7 @@ const Cards = () => {
         <div className="container-fluid" id='cards'>
         <div className="imgWithText">
                 <div className="gridElements">
-                <a href='./Attractions/#Sports'>
+                <a href='./Sports'>
                 <img src={Sports} alt="hockey"/> 
                 <p className="bottom-left">SPORTS</p>
                 </a> 
@@ -26,7 +26,7 @@ const Cards = () => {
                 </div>
                <div className="imgWithText">
                 <div className="gridElements">
-                <a href="./Attractions/#Casinos">
+                <a href="./Casinos">
                 <img src={Casinos} alt="casino"/> 
                     <p className="bottom-left">CASINOS</p>
                 </a> 
@@ -34,7 +34,7 @@ const Cards = () => {
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                    <a href="/Attractions/#Music_VenuesHeader">
+                    <a href="./Music">
                     <img src={Music} alt="music"/> 
                     <p className="bottom-left">MUSIC</p>
                     </a> 
@@ -42,7 +42,7 @@ const Cards = () => {
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions#Parks'>
+                <a href='./Parks'>
                 <img src={Parks} alt="park"/> 
                     <p className="bottom-left">PARKS</p> 
                 </a>
@@ -50,22 +50,23 @@ const Cards = () => {
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions/#Museums'>
+                <a href='./Museums'>
                 <img src={Museums} alt="Museums"/> 
                     <p className="bottom-left">MUSEUMS</p> 
                 </a>
                 </div>
                 </div>
+                
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions/#Museums'>
+                <a href='./Restaurants'>
                 <img src={Food} alt="food"/> 
                     <p className="bottom-left">FOOD</p> 
                     </a>
                 </div>
                 </div> <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions/#OTR'>
+                <a href='./Otr'>
                 <img src={OTR} alt="OTR"/> 
                     <p className="bottom-left">VISIT OTR</p> 
                 </a>
@@ -73,7 +74,7 @@ const Cards = () => {
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions/#Breweries'>
+                <a href='./Breweries'>
                 <img src={Breweries} alt="breweries"/> 
                     <p className="bottom-left">BREWERIES</p> 
                 </a>
@@ -81,7 +82,7 @@ const Cards = () => {
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions/#Favorites'>
+                <a href='./OurFavorites'>
                 <img src={Others} alt="other"/> 
                     <p className="bottom-left">OUR FAVORITES</p> 
                 </a>
@@ -89,7 +90,7 @@ const Cards = () => {
                 </div>  
                    <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions/#Liberty'>
+                <a href='./Libertycenter'>
                 <img src={Liberty} alt="Liberty Center"/> 
                     <p className="bottom-left">VISIT LIBERTY CENTER</p> 
                 </a>
@@ -97,7 +98,7 @@ const Cards = () => {
                 </div>     
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions/#Newport'>
+                <a href='./Newport'>
                 <img src={Newport} alt="Newport"/> 
                     <p className="bottom-left">VISIT NEWPORT</p> 
                 </a>
@@ -105,7 +106,7 @@ const Cards = () => {
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions/#Downtown'>
+                <a href='./Downtown'>
                 <img src={Downtown} alt="downtown"/> 
                     <p className="bottom-left">VISIT DOWNTOWN</p> 
                 </a>

@@ -2,7 +2,7 @@ const router = require('express').Router()
 let Attraction = require('../models/AttractionSchema')
 
 router.route('/').get((req, res) => {
-    Attraction.find()
+    Attraction.find(req.params.category)
     .then(attraction =>
         res.json(attraction))
         .catch((err) => {
@@ -65,4 +65,3 @@ module.exports = router;
 
 
 
-       
