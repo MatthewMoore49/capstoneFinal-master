@@ -15,10 +15,10 @@ import Sports from './assets/HomeImgs/squares/sports.png';
 
 const Cards = () => {
         return (
-        <div className="container-fluid">
+        <div className="container-fluid" id='cards'>
         <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions/#Sports'>
+                <a href='./Attractions/#Sports'>
                 <img src={Sports} alt="hockey"/> 
                 <p className="bottom-left">SPORTS</p>
                 </a> 
@@ -26,7 +26,7 @@ const Cards = () => {
                 </div>
                <div className="imgWithText">
                 <div className="gridElements">
-                <a href="/Attractions/#Casinos">
+                <a href="./Attractions/#Casinos">
                 <img src={Casinos} alt="casino"/> 
                     <p className="bottom-left">CASINOS</p>
                 </a> 
@@ -34,7 +34,7 @@ const Cards = () => {
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                    <a href="/Attractions/#Music">
+                    <a href="/Attractions/#Music_VenuesHeader">
                     <img src={Music} alt="music"/> 
                     <p className="bottom-left">MUSIC</p>
                     </a> 
@@ -42,7 +42,7 @@ const Cards = () => {
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='/Attractions/#Parks'>
+                <a href='/Attractions#Parks'>
                 <img src={Parks} alt="park"/> 
                     <p className="bottom-left">PARKS</p> 
                 </a>
@@ -58,14 +58,10 @@ const Cards = () => {
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                <Link to={{
-                    pathname:"/Attractions",
-                    hash:"#Restaurants",
-                }}
-                >
+                <a href='/Attractions/#Museums'>
                 <img src={Food} alt="food"/> 
                     <p className="bottom-left">FOOD</p> 
-                </Link>
+                    </a>
                 </div>
                 </div> <div className="imgWithText">
                 <div className="gridElements">
@@ -115,10 +111,7 @@ const Cards = () => {
                 </a>
                 </div>
                 </div>   
-            
-               
     </div> 
-   
     )
 }
 

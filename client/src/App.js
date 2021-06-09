@@ -2,11 +2,11 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Navbar from './Navbar';
-import FooterHome from './FooterHome';
 import Home from './pages/Home';
 import About from './pages/About';
  import Attractions from './pages/Attractions';
  import Contact from './pages/Contact';
+ import FooterHome from './FooterHome';
 import './styles/Main.css';
 // import router from './routes/auth';
 

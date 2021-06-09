@@ -64,7 +64,7 @@
     color: white;
     padding: 5px 5px 5px 5px;
   }
-  
+
   .gridElements img{
     width: 100%;
     height: 100%;
@@ -94,3 +94,34 @@
     font-weight: bold;
     text-shadow: 5px 5px 8px #212529;
   } 
+
+
+  @media (max-width: 800px) {
+    .jumbotron h1 {
+      font-size: 2em;
+    }
+    .homehover {
+      background-image: url(../assets/HomeImgs/7.png);
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      /* filter: none; */
+    }
+
+    .homeheader h1{
+      font-size: 20px;
+    }
+
+    .homeheader h2{
+      font-size: 20px;
+    }
+
+    .bottom-left {
+      font-size: 14px;
+      padding: 2px;
+    bottom: 0px;
+    margin-bottom: 2px;
+    left: 6px;
+    font-weight: bolder;
+    }
+  }

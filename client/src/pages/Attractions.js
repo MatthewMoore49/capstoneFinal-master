@@ -25,6 +25,7 @@ const Attraction = (props) => {
     )
 }
 
+     
 export default class Attractions extends Component {
     constructor(props) {
         super(props)
@@ -50,79 +51,91 @@ export default class Attractions extends Component {
         });
     }
 
+
+
     SportsList() {
         return this.state.attractions.map((currentAttraction) => {
            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
         })
    }
-    CasinosList() {
-        return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
-        })
-    }
-    Our_FavoritesList() {
-        return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
-        })
-    }
-    Music_VenuesList() {
-        return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
-        })
-    }
-    ParksList() {
-        return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
-        })
-    }
-    MuseumList() {
-        return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
-        })
-    }
-   RestaurantsList() {
-        return this.state.restaurants.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
-        })
-    }
-    BreweriesList() {
-        return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
-        })
-    }
-    VisitOtrList() {
-        return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
-        })
-    }
-    VisitDowntownList() {
-        return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
-        })
-    }
-    VisitNewportKyList() {
-        return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
-        })
-    }
-    VisitLibertyCenterList() {
-        return this.state.attractions.map((currentAttraction) => {
-            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
-        })
-    }
+//     CasinosList() {
+//         return this.state.attractions.map((currentAttraction) => {
+//             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+//         })
+//     }
+//     Our_FavoritesList() {
+//         return this.state.attractions.map((currentAttraction) => {
+//             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+//         })
+//     }
+//     Music_VenuesList() {
+//         return this.state.attractions.map((currentAttraction) => {
+//             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+//         })
+//     }
+//     ParksList() {
+//         return this.state.attractions.map((currentAttraction) => {
+//             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+//         })
+//     }
+//     MuseumList() {
+//         return this.state.attractions.map((currentAttraction) => {
+//             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+//         })
+//     }
+//    RestaurantsList() {
+//         return this.state.restaurants.map((currentAttraction) => {
+//             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+//         })
+//     }
+//     BreweriesList() {
+//         return this.state.attractions.map((currentAttraction) => {
+//             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+//         })
+//     }
+//     VisitOtrList() {
+//         return this.state.attractions.map((currentAttraction) => {
+//             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+//         })
+//     }
+//     VisitDowntownList() {
+//         return this.state.attractions.map((currentAttraction) => {
+//             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+//         })
+//     }
+//     VisitNewportKyList() {
+//         return this.state.attractions.map((currentAttraction) => {
+//             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+//         })
+//     }
+//     VisitLibertyCenterList() {
+//         return this.state.attractions.map((currentAttraction) => {
+//             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+//         })
+//     }
     
 
     render() {
         return (
+        
             this.state.loading === false ? (
                 <div className='row'>
+                <div className="jumbotron jumbotron-fluid attracthover">
+          <div className="attractcontainer">
+              <h1>Explore Cincinnati</h1>
+          </div>
+      </div>
+      <div className='attractheader'>
+          <h1>The Queen City <span className='crown'><i class="fas fa-crown fa-xs"></i></span> Porkopolis <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The City That Sings <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The 'Nati</h1>
+          <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
+      </div>
                 <div className='SportsContainer' id='Sports'>
                     <h2 className='SportsHeader'>Sports</h2>
                     <div className='SportsInnerContainer'>
                         {this.SportsList()}
                     </div>  </div>
                    
-                <div className='CasinosContainer' id='Casinos'>
+                {/* <div className='CasinosContainer' id='Casinos'>
                     <h2 className='CasinosHeader'>Casinos</h2>
                     <div className='CasinosInnerContainer'>
                         {this.CasinosList()}
@@ -185,7 +198,7 @@ export default class Attractions extends Component {
                     <h2 className='VisitLibertyCenterHeader'>Visit Liberty Center </h2>
                     <div className='VisitLibertyCenterInnerContainer'>
                         {this.VisitLibertyCenterList()}
-                    </div>  </div>
+                    </div>  </div> */}
                
                     </div>
             ) : (

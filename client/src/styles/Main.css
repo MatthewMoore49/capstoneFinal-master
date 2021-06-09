@@ -34,6 +34,7 @@ code {
       font-family: 'kaushan script';
       text-align: center;
       color: #F8F9FA;
+      text-shadow: 2px 2px 3px #212529;
   }
 
   .sidenav ul li {
@@ -63,12 +64,83 @@ code {
     .sidenav a {font-size: 18px;}
   }
 
-    @media (max-width: 400px){
+    /* @media (max-width: 400px){
         .sidenav {
             padding-top: 15px;
+            width: 100px;
+        }
+        .sidenav h2 {
+          font-size: 16px;
         }
         .sidenav a {
-            font-size: 18px;
+            font-size: 14px;
             text-align: center;
         }
+        .sidenav ul {
+          padding-left: 15px;
+        }
+        
+        body {
+          margin-left: 100px;
+        }
+}
+
+  @media (max-width: 500px){
+      .sidenav {
+          padding-top: 15px;
+          width: 100px;
+      }
+      .sidenav h2 {
+        font-size: 16px;
+      }
+      .sidenav a {
+          font-size: 14px;
+          text-align: center;
+      }
+      .sidenav ul {
+        padding-left: 15px;
+      }
+      body {
+        margin-left: 100px;
+      }
+}
+
+@media (max-width: 700px){
+  .sidenav {
+      padding-top: 15px;
+      width: 100px;
+  }
+  .sidenav h2 {
+    font-size: 16px;
+  }
+  .sidenav a {
+      font-size: 14px;
+      text-align: center;
+  }
+  .sidenav ul {
+    padding-left: 15px;
+  }
+  body {
+    margin-left: 100px;
+  }
+} */
+@media (max-width: 800px){
+  .sidenav {
+      padding-top: 15px;
+      width: 100px;
+  }
+  .sidenav h2 {
+    font-size: 16px;
+  }
+  .sidenav a {
+      font-size: 14px;
+      text-align: center;
+  }
+  .sidenav ul {
+    padding-left: 15px;
+  }
+  body {
+    margin-left: 100px;
+    margin-right: 0px !important;
+  }
 }
