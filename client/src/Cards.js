@@ -56,10 +56,11 @@ const Cards = () => {
                 </a>
                 </div>
                 </div>
+                
                 <div className="imgWithText">
                 <div className="gridElements">
                 <Link to={{
-                    pathname:"/Attractions",
+                    pathname:"/Attractions/#Restaurants",
                     hash:"#Restaurants",
                 }}
                 >

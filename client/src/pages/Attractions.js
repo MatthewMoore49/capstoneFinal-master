@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
  import { Link } from 'react-router-dom';
+ import { Route } from 'react-router-dom';
+ import { Router } from 'react-router-dom';
 import axios from 'axios';
 import Card from 'react-bootstrap/Card';
 import {BACKEND_URL} from '../config'
@@ -25,22 +27,94 @@ const Attraction = (props) => {
     )
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const Sports = (props) => {
+    return (
+<div className='Sports'>
+            <div className='sportsCard'>
+                <div className='cardImage'></div>
+                <img className='sportImage' src={props.sport.imageURL} alt='sport' />
+                </div>
+                <div>
+                    <div className='sportTitle'>{props.sport.title}</div>
+                    <div className='sportDescription'>{props.sport.description}</div>
+                    <div className='sportLocation'>{props.sport.location}</div>
+                    <a className='sportWeb' href={props.sport.website} target="_blank" rel="noreferrer">Visit</a>
+                </div>
+            </div>
+        
+    )
+}
+    
+
+
+
+
+
+
+
 export default class Attractions extends Component {
     constructor(props) {
         super(props)
         this.state = {
             attractions:[],
-            restaurants:[],
+            sports:[],
+            casinos:[],
+         
+            
             loading: true
         };
     }
     componentDidMount() {
         axios.get(BACKEND_URL + 'attractions/')
-        axios.get(BACKEND_URL + 'restaurants/')
+        // axios.get(BACKEND_URL + 'restaurants/')
+       // axios.get(BACKEND_URL + 'breweries/')
+    //    axios.get(BACKEND_URL + 'casinos/')
+       // axios.get(BACKEND_URL + 'music/')
+        // axios.get(BACKEND_URL + 'sports/')
+      //  axios.get(BACKEND_URL + 'parks/')
+      //  axios.get(BACKEND_URL + 'favorites/')
+       // axios.get(BACKEND_URL + 'downtown/')
+       // axios.get(BACKEND_URL + 'liberty/')
+      //  axios.get(BACKEND_URL + 'newport/')
+      //  axios.get(BACKEND_URL + 'otr/')
+
+
+
+
+
+
+
+
+
+
         .then(response => {
             this.setState({
                 attractions: response.data,
                 restaurants:response.data,
+                casinos:response.data,
+                sports:response.data,
                 loading: false
             })
             console.log('this is the list of attractions')
@@ -52,11 +126,11 @@ export default class Attractions extends Component {
 
     SportsList() {
         return this.state.attractions.map((currentAttraction) => {
-           return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+           return <Attraction attraction= {currentAttraction} key={currentAttraction._id} />
         })
    }
     CasinosList() {
-        return this.state.attractions.map((currentAttraction) => {
+        return this.state.casinos.map((currentAttraction) => {
             return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
         })
     }
@@ -125,7 +199,7 @@ export default class Attractions extends Component {
                 <div className='CasinosContainer' id='Casinos'>
                     <h2 className='CasinosHeader'>Casinos</h2>
                     <div className='CasinosInnerContainer'>
-                        {this.CasinosList()}
+                        {/* {this.CasinosList()} */}
                     </div>  </div>
                    
                 <div className='Our_FavoritesContainer' id='Favorites'>

@@ -11,18 +11,8 @@ import './styles/Main.css';
 // import router from './routes/auth';
 
 
-// app.use(express.json())
-// app.use(require('./routes/auth'))
 
 
-// router.get('./', (req,res)=>{
-//   res.send("hello")
-// })
-
-
-// router.post('/signup', (req,res)=>{
-//   console.log(req.body.name)
-// })
 
 
 
@@ -37,7 +27,7 @@ const App = () => {
      <Route path = '/about' component={About}/>
     <Route path = '/contact' component={Contact}/>
     <Route path = '/Attractions' component={Attractions}/>
-    {/* <Route path = '/Sports' component={Sports}/> */}
+    <Route path = '/Attractions/#Sports' component={Sports}/> 
     {/* <Route path = '/Casinos' component={Casinos}/> */}
     {/* <Route path = '/Venues' component={Music_Venues}/> */}
     {/* <Route path = '/OurFavorites' component={Our_Favorites}/> */}
