@@ -31,13 +31,11 @@ export default class Attractions extends Component {
         super(props)
         this.state = {
             attractions:[],
-            restaurants:[],
             loading: true
         };
     }
     componentDidMount() {
         axios.get(BACKEND_URL + 'attractions/')
-        axios.get(BACKEND_URL + 'restaurants/')
         .then(response => {
             this.setState({
                 attractions: response.data,
