@@ -5,9 +5,9 @@ export const Museums = () => {
     return (
         <div>
             <div className = 'home'>
-      <div className="jumbotron jumbotron-fluid abouthover">
-          <div className="breweriescontainer">
-              <h1>Breweries</h1>
+      <div className="jumbotron jumbotron-fluid museumhover">
+          <div className="aboutcontainer">
+              <h1>Museums</h1>
           </div>
       </div>
       <div className='aboutheader'>

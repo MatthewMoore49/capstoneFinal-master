@@ -12,7 +12,7 @@
 }
 
 .restauranthover:hover {
-    background-image: url(../assets/ContactImgs/4.png);
+    background-image: url(../assets/AttractionsImgs/Restaurants.png);
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -21,7 +21,7 @@
 
 /* breweries heroimage */
 .restauranthover {
-    background-image: url(../assets/ContactImgs/4.png);
+    /* background-image: url(../assets/ContactImgs/4.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -33,7 +33,7 @@
 }
 
 .restauranthover:hover {
-    background-image: url(../assets/ContactImgs/4.png);
+    /* background-image: url(../assets/ContactImgs/4.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -42,7 +42,7 @@
 
 /* casinos heroimage */
 .restauranthover {
-    background-image: url(../assets/ContactImgs/4.png);
+    /* background-image: url(../assets/ContactImgs/4.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -54,7 +54,7 @@
 }
 
 .restauranthover:hover {
-    background-image: url(../assets/ContactImgs/4.png);
+    /* background-image: url(../assets/ContactImgs/4.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -104,8 +104,8 @@
 }
 
 /* museums heroimage */
-.restauranthover {
-    background-image: url(../assets/ContactImgs/4.png);
+.museumhover {
+    background-image: url(../assets/AttractionsImgs/Museums.png);
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -116,8 +116,8 @@
     
 }
 
-.restauranthover:hover {
-    background-image: url(../assets/ContactImgs/4.png);
+.museumhover:hover {
+    background-image: url(../assets/AttractionsImgs/Museums.png);
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -126,7 +126,7 @@
 
 /* newport heroimage */
 .newporthover {
-    background-image: url(../assets/ContactImgs/4.png);
+    background-image: url(../assets/AttractionsImgs/Newport.png);
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -138,7 +138,7 @@
 }
 
 .newporthover:hover {
-    background-image: url(../assets/ContactImgs/4.png);
+    background-image: url(../assets/AttractionsImgs/Newport.png);
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -147,7 +147,7 @@
 
 /* Otr heroimage */
 .otrhover {
-    background-image: url(../assets/ContactImgs/4.png);
+    background-image: url(../assets/AttractionsImgs/OTR.png);
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -159,7 +159,7 @@
 }
 
 .otrhover:hover {
-    background-image: url(../assets/ContactImgs/4.png);
+    background-image: url(../assets/AttractionsImgs/OTR.png);
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -168,7 +168,7 @@
 
 /* favorites heroimage */
 .restauranthover {
-    background-image: url(../assets/ContactImgs/4.png);
+    /* background-image: url(../assets/ContactImgs/4.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -180,7 +180,7 @@
 }
 
 .restauranthover:hover {
-    background-image: url(../assets/ContactImgs/4.png);
+    /* background-image: url(../assets/ContactImgs/4.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -189,7 +189,7 @@
 
 /* parks heroimage */
 .restauranthover {
-    background-image: url(../assets/ContactImgs/4.png);
+    /* background-image: url(../assets/ContactImgs/4.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -201,7 +201,7 @@
 }
 
 .restauranthover:hover {
-    background-image: url(../assets/ContactImgs/4.png);
+    /* background-image: url(../assets/ContactImgs/4.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -210,7 +210,7 @@
 
 /* sports heroimage */
 .sporthover {
-    background-image: url(../assets/ContactImgs/4.png);
+    background-image: url(../assets/AttractionsImgs/Sports.png);
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -222,7 +222,7 @@
 }
 
 .sporthover:hover {
-    background-image: url(../assets/ContactImgs/4.png);
+    background-image: url(../assets/AttractionsImgs/Sports.png);
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -230,8 +230,8 @@
 }
 
 /* music heroimage */
-.restauranthover {
-    background-image: url(../assets/ContactImgs/4.png);
+.musichover {
+    background-image: url(../assets/AttractionsImgs/Music.png);
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -242,8 +242,8 @@
     
 }
 
-.restauranthover:hover {
-    background-image: url(../assets/ContactImgs/4.png);
+.musichover:hover {
+    background-image: url(../assets/AttractionsImgs/Music.png);
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */

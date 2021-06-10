@@ -36,7 +36,7 @@ const App = () => {
     <div>
     <Navbar/>
     <Route exact path = '/home' component={Home}/>
-     <Route path = '/about' component={About}/>
+    <Route path = '/about' component={About}/>
     <Route path = '/contact' component={Contact}/>
     <Route path = '/Attractions' component={Attractions}/>
     <Route path = '/Sports' component={Sports}/>
@@ -46,7 +46,7 @@ const App = () => {
     <Route path = '/Otr' component={OTR}/>
     <Route path = '/Museums' component={Museums}/>
     <Route path = '/Casinos' component={Casinos}/>
-    <Route path = '/Venues' component={Music}/>
+    <Route path = '/Music' component={Music}/>
     <Route path = '/OurFavories' component={Favorites}/>
     <Route path = '/Parks' component={Parks}/>
     <Route path = '/Restaurants' component={Restaurants}/>

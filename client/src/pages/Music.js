@@ -5,9 +5,9 @@ export const Music = () => {
     return (
         <div>
             <div className = 'home'>
-      <div className="jumbotron jumbotron-fluid abouthover">
-          <div className="breweriescontainer">
-              <h1>Breweries</h1>
+      <div className="jumbotron jumbotron-fluid musichover">
+          <div className="aboutcontainer">
+              <h1>Music Venues</h1>
           </div>
       </div>
       <div className='aboutheader'>
