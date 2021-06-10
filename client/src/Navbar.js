@@ -13,7 +13,7 @@ const Navbar = () => {
         <li><a href="/contact">Contact</a></li>
         <li><a href="/attractions">All Attractions</a></li>
 <li className="dropdown">
-  <a className="dropbtn">Categories</a>
+  <a className="dropbtn" href>Categories</a>
   <div className="dropdown-content">
     <a className='dropdowna' href="/Breweries">Breweries</a>
     <a className='dropdowna' href="/Casinos">Casinos</a>
