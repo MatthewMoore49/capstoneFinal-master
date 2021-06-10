@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="sidenav">
       <h2>Queen City Attractions</h2><br />
       <ul>
-        <li><Link to="/home">Home</Link></li>
+        <li><Link to="/">Home</Link></li>
         <li><a href="/about">About</a></li>
         <li><a href="/contact">Contact</a></li>
         <li><a href="/attractions">All Attractions</a></li>
