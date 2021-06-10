@@ -24,17 +24,19 @@
     "react-dom": "^17.0.2",
     "react-icons": "^4.2.0",
     "react-scripts": "^4.0.3",
-    "web-vitals": "^1.1.2"
+    "web-vitals": "^1.1.2",
+    "proxy": "http://localhost:5000"
   },
   "scripts": {
+    "server": "node server.js",
     "build": "react-scripts build",
     "install-client": "cd client && npm install",
     "heroku-postbuild": "npm run install-client && npm run build",
-    "client": "cd client && npm start",
+    "client": "npm start --prefix client",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start": "node server.js",
-    "dev": "concurrently \"npm start\" \"cd client && npm start\""
+    "dev": "concurrently \"nodemon server\" \"cd client && npm start\""
   },
   "eslintConfig": {
     "extends": [
@@ -53,5 +55,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^6.2.0"
   }
 }
