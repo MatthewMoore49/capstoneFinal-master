@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 // const path = require('path');
- const router = require('./routes/Attractions')
+//  const router = require('./routes/Attractions')
 require('dotenv').config();
 
 const app = express();
@@ -19,10 +19,12 @@ app.use(express.json())
 
 
 const attractionsRouter = require('./routes/attractions')
-
+const contactRouter = require('./routes/contact')
+//const NewAttractionRouter = require('./routes/NewAttraction')
 
 app.use('/attractions', attractionsRouter)
-
+app.use('/Contact', contactRouter)
+//app.use('/NewAttraction', NewAttractionRouter)
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 
