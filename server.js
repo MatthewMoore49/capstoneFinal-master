@@ -21,7 +21,7 @@ app.use(express.json());
 const attractionsRouter = require('./routes/Attractions');
 
 
-app.use('/Attractions', attractionsRouter);
+app.use('/attractions', attractionsRouter);
 
 
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });

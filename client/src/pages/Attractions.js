@@ -35,7 +35,7 @@ export default class Attractions extends Component {
         };
     }
     componentDidMount() {
-        axios.get(BACKEND_URL + 'Attractions/')
+        axios.get(BACKEND_URL + 'attractions/')
         .then(response => {
             this.setState({
                 attractions: response.data,
@@ -72,7 +72,7 @@ export default class Attractions extends Component {
           <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
       </div>
                 <div className='AttractionsContainer'>
-                    <h2 className='AttractionsHeader'></h2>
+                    <h2 className='AttractionsHeader'>Attractions</h2>
                     <div className='AttractionsInnerContainer'>
                         {this.AttractionsList()}
                     </div>  </div>
