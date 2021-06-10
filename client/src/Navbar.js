@@ -11,7 +11,7 @@ const Navbar = () => {
         <li><Link to="/home">Home</Link></li>
         <li><a href="/about">About</a></li>
         <li><a href="/contact">Contact</a></li>
-        <li><a href="/attractions">All Attractions</a></li>
+        <li><a href="/Attractions">All Attractions</a></li>
 <li className="dropdown">
   <a href="javascript:void(0)" className="dropbtn">Categories</a>
   <div className="dropdown-content">
