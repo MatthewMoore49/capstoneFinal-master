@@ -5,8 +5,8 @@ export const Parks = () => {
     return (
         <div>
             <div className = 'home'>
-      <div className="jumbotron jumbotron-fluid abouthover">
-          <div className="parkscontainer">
+      <div className="jumbotron jumbotron-fluid parkshover">
+          <div className="aboutcontainer">
               <h1>Parks</h1>
           </div>
       </div>

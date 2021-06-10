@@ -143,6 +143,9 @@ code {
     margin-left: 100px;
     margin-right: 0px !important;
   }
+  .dropdown-content .dropdowna{
+    font-size: 10px;
+  }
 }
 
 .dropbtn {

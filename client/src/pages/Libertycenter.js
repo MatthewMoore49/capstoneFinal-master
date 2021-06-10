@@ -6,7 +6,7 @@ export const Liberty = () => {
         <div>
         <div className = 'home'>
   <div className="jumbotron jumbotron-fluid libertyhover">
-      <div className="parkscontainer">
+      <div className="aboutcontainer">
           <h1>Visit Liberty Center</h1>
       </div>
   </div>

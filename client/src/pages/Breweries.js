@@ -5,8 +5,8 @@ export const Breweries = () => {
     return (
         <div>
             <div className = 'home'>
-      <div className="jumbotron jumbotron-fluid abouthover">
-          <div className="breweriescontainer">
+      <div className="jumbotron jumbotron-fluid brewerieshover">
+          <div className="aboutcontainer">
               <h1>Breweries</h1>
           </div>
       </div>

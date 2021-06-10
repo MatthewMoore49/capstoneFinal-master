@@ -1,13 +1,13 @@
 import React from 'react'
 import '../styles/SingleAttraction.css'
 
-export const OurFavories = () => {
+export const Favorites = () => {
     return (
         <div>
             <div className = 'home'>
-      <div className="jumbotron jumbotron-fluid abouthover">
-          <div className="parkscontainer">
-              <h1>Parks</h1>
+      <div className="jumbotron jumbotron-fluid favoriteshover">
+          <div className="aboutcontainer">
+              <h1>Our Favorites</h1>
           </div>
       </div>
       <div className='aboutheader'>
@@ -52,4 +52,4 @@ export const OurFavories = () => {
     )
 }
 
-export default OurFavories
+export default Favorites

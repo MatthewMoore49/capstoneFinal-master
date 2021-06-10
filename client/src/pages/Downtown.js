@@ -6,7 +6,7 @@ export const Downtown = () => {
         <div>
         <div className = 'home'>
   <div className="jumbotron jumbotron-fluid downtownhover">
-      <div className="parkscontainer">
+      <div className="aboutcontainer">
           <h1>Visit Downtown</h1>
       </div>
   </div>
