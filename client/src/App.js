@@ -10,9 +10,14 @@ import Sports from './pages/Sports';
 import Downtown from './pages/Downtown';
 import Newport from './pages/Newport';
 import OTR from './pages/Otr';
+import Breweries from './pages/Breweries';
+import Casinos from './pages/Casinos';
+import Museums from './pages/Museums';
+import Music from './pages/Music';
+import Parks from './pages/Parks';
+import Favorites from './pages/OurFavories';
 import Attractions from './pages/Attractions';
 import Contact from './pages/Contact';
-import Breweries from './pages/Breweries'
 import FooterHome from './FooterHome';
 import './styles/Main.css';
 // import router from './routes/auth';
@@ -39,10 +44,11 @@ const App = () => {
     <Route path = '/Libertycenter' component={Liberty}/>
     <Route path = '/Newport' component={Newport}/>
     <Route path = '/Otr' component={OTR}/>
-    {/* <Route path = '/Casinos' component={Casinos}/> */}
-    {/* <Route path = '/Venues' component={Music_Venues}/> */}
-    {/* <Route path = '/OurFavorites' component={Our_Favorites}/> */}
-    {/* <Route path = '/Parks' component={Parks}/> */}
+    <Route path = '/Museums' component={Museums}/>
+    <Route path = '/Casinos' component={Casinos}/>
+    <Route path = '/Venues' component={Music}/>
+    <Route path = '/OurFavories' component={Favorites}/>
+    <Route path = '/Parks' component={Parks}/>
     <Route path = '/Restaurants' component={Restaurants}/>
     <Route path = '/Breweries' component={Breweries}/>
     <FooterHome />
