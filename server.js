@@ -1,7 +1,7 @@
 const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
-// const path = require('path');
+const path = require('path');
 //  const router = require('./routes/Attractions')
 require('dotenv').config();
 
@@ -23,7 +23,6 @@ const attractionsRouter = require('./routes/Attractions');
 
 app.use('/attractions', attractionsRouter);
 
-
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 
 const connection = mongoose.connection;
@@ -37,7 +36,12 @@ app.listen(PORT, () => {
 });
 
 
-
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static('client/build'))
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client/build'))
+  })
+}
 
 
 
