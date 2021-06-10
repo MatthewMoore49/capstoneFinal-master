@@ -291,8 +291,72 @@
       max-width: 100%;
       filter: none;
     }
-
-    /* .brewerieshover .casinohover  */
+    .musichover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .sporthover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .parkshover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .favoriteshover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .otrhover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .newporthover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .museumhover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .libertyhover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .downtownhover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .casinohover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .brewerieshover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
 
     .aboutheader h1{
       font-size: 20px;

@@ -6,7 +6,7 @@ export const Parks = () => {
         <div>
             <div className = 'home'>
       <div className="jumbotron jumbotron-fluid parkshover">
-          <div className="aboutcontainer">
+          <div className="about container">
               <h1>Parks</h1>
           </div>
       </div>
@@ -16,35 +16,35 @@ export const Parks = () => {
       </div>
         </div>
             <div className = 'singleattraction'>
-                <a href="https://www.cincinnatiparks.com/central/eden-park/"target="_blank"><h1>Eden Park</h1></a>
+                <a href="https://www.cincinnatiparks.com/central/eden-park/" target="_blank" rel="noreferrer"><h1>Eden Park</h1></a>
             <img src="https://images2.imgbox.com/3b/42/TwlYH5ER_o.png" alt=""/>
             <p>950 Eden Park Dr, Cincinnati, OH 45202</p>
             </div>
 
 
             <div className = 'singleattraction'>
-                <a href="https://www.cincinnatiparks.com/river-parks/smale-riverfront-park/" target="_blank"><h1>Smale Park</h1></a>
+                <a href="https://www.cincinnatiparks.com/river-parks/smale-riverfront-park/" target="_blank" rel="noreferrer"><h1>Smale Park</h1></a>
             <img src="https://images2.imgbox.com/31/49/wEY6cvQN_o.png" alt=""/>
             <p>West Mehring Way, Cincinnati, OH 45202</p>
             </div>
 
 
             <div className = 'singleattraction'>
-                <a href="https://washingtonpark.org/" target="_blank"><h1>Washington Park</h1></a>
+                <a href="https://washingtonpark.org/" target="_blank" rel="noreferrer"><h1>Washington Park</h1></a>
             <img src="https://images2.imgbox.com/9e/fa/r43o0Ml0_o.png" alt=""/>
             <p>1230 Elm St, Cincinnati, OH 45202</p>
             </div>
 
 
             <div className = 'singleattraction'>
-                <a href="https://www.cincinnatiparks.com/river-parks/sawyer-point-park-yeatmans..." target="_blank"><h1>Sawyer Point</h1></a>
+                <a href="https://www.cincinnatiparks.com/river-parks/sawyer-point-park-yeatmans..." target="_blank" rel="noreferrer"><h1>Sawyer Point</h1></a>
             <img src="https://images2.imgbox.com/ac/12/GV7fKcLb_o.png" alt=""/>
             <p>705 E Pete Rose Way, Cincinnati, OH 45202</p>
             </div>
 
 
             <div className = 'singleattraction'>
-                <a href="https://www.cincinnatiparks.com/west/mt-airy-forest/" target="_blank"><h1>Mt. Airy</h1></a>
+                <a href="https://www.cincinnatiparks.com/west/mt-airy-forest/" target="_blank" rel="noreferrer"><h1>Mt. Airy</h1></a>
             <img src="https://images2.imgbox.com/4e/1c/FzPhF84A_o.png" alt=""/>
             <p>2885 Diehl Rd, Cincinnati, OH 45211</p>
             </div>

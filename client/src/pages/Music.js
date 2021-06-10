@@ -19,7 +19,7 @@ export const Music = () => {
 
 
             <div className = 'singleattraction'>
-                <a href="https://www.riverbend.org/"target="_blank"><h1>Riverbend</h1></a>
+                <a href="https://www.riverbend.org/"target="_blank" rel="noreferrer"><h1>Riverbend</h1></a>
             <img src="https://images2.imgbox.com/f7/cb/mNnsOqnH_o.png" alt=" image"/>
             <p>6295 Kellogg Ave, Cincinnati, OH 45230</p>
 
@@ -27,28 +27,28 @@ export const Music = () => {
 
 
             <div className = 'singleattraction'>
-                <a href="https://iconmusiccenter.com/" target="_blank"><h1>ICON Music Center</h1></a>
+                <a href="https://iconmusiccenter.com/" target="_blank" rel="noreferrer"><h1>ICON Music Center</h1></a>
             <img src="https://images2.imgbox.com/9d/58/4ZhwMp9c_o.png" alt="img"/>
             <p>25 Race St, Cincinnati, OH 45202</p>
             </div>
 
 
             <div className = 'singleattraction'>
-                <a href="https://promowestlive.com/our-venues/promowest-pavilion-at-ovation"target="_blank"><h1>PromoWest Pavilion at Ovation</h1></a>
+                <a href="https://promowestlive.com/our-venues/promowest-pavilion-at-ovation"target="_blank" rel="noreferrer"><h1>PromoWest Pavilion at Ovation</h1></a>
             <img src= "https://images2.imgbox.com/26/50/rpVxYmGv_o.png" alt=" img"/>
             <p>101 W 4th St, Newport, KY 41071</p>
             </div>
 
 
             <div className = 'singleattraction'>
-                <a href="https://www.bogarts.com/"target="_blank"><h1>Bogarts</h1></a>
+                <a href="https://www.bogarts.com/"target="_blank" rel="noreferrer"><h1>Bogarts</h1></a>
             <img src="https://images2.imgbox.com/da/9d/OBdwzEoV_o.png" alt=""/>
             <p>2621 Vine St, Cincinnati, OH 45219</p>
             </div>
 
 
             <div className = 'singleattraction'>
-                <a href="https://www.cincinnatiarts.org/music-hall"target="_blank"><h1>Music Hall</h1></a>
+                <a href="https://www.cincinnatiarts.org/music-hall"target="_blank" rel="noreferrer"><h1>Music Hall</h1></a>
             <img src="https://images2.imgbox.com/6b/1a/UiUFvwko_o.png"alt=""/>
             <p>1241 Elm St, Cincinnati, OH 45202</p>
             </div>
