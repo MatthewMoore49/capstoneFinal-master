@@ -7,7 +7,7 @@ export const OTR = () => {
             <div className = 'home'>
       <div className="jumbotron jumbotron-fluid otrhover">
           <div className="parkscontainer">
-              <h1>Parks</h1>
+              <h1>Visit OTR</h1>
           </div>
       </div>
       <div className='aboutheader'>
@@ -16,29 +16,29 @@ export const OTR = () => {
       </div>
         </div>
             <div className = 'singleattraction'>
-                <a href="https://rhinegeist.com/" target="_blank"><h1>Rhinegeist Brewery</h1></a>
-            <img src="https://images2.imgbox.com/4a/d7/dNyZJw07_o.png" alt=""/>
+                <a href="https://www.thecandlelab.com/pages/the-candle-lab-cincy-otr-store" target="_blank"><h1>Candle Lab</h1></a>
+            <img src="https://images2.imgbox.com/cc/b7/wo54OmjC_o.png" alt="Candle Lab"/>
+            <p>1325 Vine St, Cincinnati, OH 45202</p>
+            </div>
+            <div className = 'singleattraction'>
+                <a href="https://www.holtmansdonutshop.com/" target="_blank"><h1>Holtman’s Donuts</h1></a>
+            <img src="https://images2.imgbox.com/ea/81/lHtLAKUb_o.png" alt="Holtman’s Donuts"/>
+            <p>1332C-2, Vine St, Cincinnati, OH 45202</p>
+            </div>
+            <div className = 'singleattraction'>
+                <a href="http://senatepub.com/" target="_blank"><h1>The Senate</h1></a>
+            <img src="https://images2.imgbox.com/0d/ba/upEeTUbM_o.png" alt="The Senate"/>
+            <p>1212 Vine St, Cincinnati, OH 45202</p>
+            </div>
+            <div className = 'singleattraction'>
+                <a href="https://rhinegeist.com/" target="_blank"><h1>Buzzed Bull Creamery</h1></a>
+            <img src="https://images2.imgbox.com/db/7b/9WkbBxGG_o.png" alt="Buzzed Bull Creamery"/>
             <p>address</p>
             </div>
             <div className = 'singleattraction'>
-                <a href="https://rhinegeist.com/" target="_blank"><h1>Rhinegeist Brewery</h1></a>
-            <img src="https://images2.imgbox.com/4a/d7/dNyZJw07_o.png" alt=""/>
-            <p>address</p>
-            </div>
-            <div className = 'singleattraction'>
-                <a href="https://rhinegeist.com/" target="_blank"><h1>Rhinegeist Brewery</h1></a>
-            <img src="https://images2.imgbox.com/4a/d7/dNyZJw07_o.png" alt=""/>
-            <p>address</p>
-            </div>
-            <div className = 'singleattraction'>
-                <a href="https://rhinegeist.com/" target="_blank"><h1>Rhinegeist Brewery</h1></a>
-            <img src="https://images2.imgbox.com/4a/d7/dNyZJw07_o.png" alt=""/>
-            <p>address</p>
-            </div>
-            <div className = 'singleattraction'>
-                <a href="https://rhinegeist.com/" target="_blank"><h1>Rhinegeist Brewery</h1></a>
-            <img src="https://images2.imgbox.com/4a/d7/dNyZJw07_o.png" alt=""/>
-            <p>address</p>
+                <a href="https://cincyshirts.com/" target="_blank"><h1>Cincy Shirts</h1></a>
+            <img src="https://images2.imgbox.com/bc/d0/TKkd39hB_o.png" alt="Cincy Shirts"/>
+            <p>1301 Main St, Cincinnati, OH 45202</p>
             </div>
         </div>
     )
