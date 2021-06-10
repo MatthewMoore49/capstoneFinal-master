@@ -2,7 +2,7 @@ const router = require('express').Router()
 let Attraction = require('../models/AttractionSchema')
 
 router.route('/').get((req, res) => {
-    Attraction.find(req.params.category)
+    Attraction.find(req.params.id)
     .then(attraction =>
         res.json(attraction))
         .catch((err) => {
