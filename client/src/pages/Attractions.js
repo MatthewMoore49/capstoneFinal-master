@@ -10,7 +10,7 @@ import { Db } from 'mongodb';
 const Attraction = (props) => {
     return (
         <div className='allAttractions'>
-            <div className='attractionsCard'>
+            <div className='attractionsCard' data-aos="flip-up">
                 <div className='cardImage'>
                     <img className='attractionImage' src={props.attraction.imageURL} alt='attraction' />
                 </div>
