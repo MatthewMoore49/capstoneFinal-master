@@ -25,7 +25,7 @@ code {
     left: 0;
     background-color: #111;
     overflow-x: hidden;
-    padding-top: 70px;
+    padding-top: 30px;
     text-decoration: none;
     background: #495057;
   }
@@ -41,7 +41,7 @@ code {
       text-decoration: none;
       list-style: none;
       font-size: 20px;
-      margin-bottom: 15px;
+      margin-bottom: 10px;
   }
 
   .sidenav a {
@@ -143,4 +143,40 @@ code {
     margin-left: 100px;
     margin-right: 0px !important;
   }
+}
+
+.dropbtn {
+  display: inline-block;
+  color: #F8F9FA;
+  text-align: center;
+  padding: 0px 16px;
+  text-decoration: none;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  /* background-color: #f9f9f9; */
+  min-width: 160px;
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #F8F9FA;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-size: 17px;
+}
+
+/* .dropdown-content a:hover {background-color: #f1f1f1} */
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

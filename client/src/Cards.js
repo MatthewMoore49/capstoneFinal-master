@@ -82,7 +82,7 @@ const Cards = () => {
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='./OurFavorites'>
+                <a href='./OurFavories'>
                 <img src={Others} alt="other"/> 
                     <p className="bottom-left">OUR FAVORITES</p> 
                 </a>
