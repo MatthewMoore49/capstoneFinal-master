@@ -35,7 +35,7 @@ const App = () => {
 <BrowserRouter>
     <div>
     <Navbar/>
-    <Route exact path = '/home' component={Home}/>
+    <Route exact path = '/' component={Home}/>
     <Route path = '/about' component={About}/>
     <Route path = '/contact' component={Contact}/>
     <Route path = '/Attractions' component={Attractions}/>

@@ -12,7 +12,7 @@
 }
 
 .restauranthover:hover {
-    background-image: url(../assets/AttractionsImgs/Restaurants.png);
+    /* background-image: url(../assets/AttractionsImgs/Restaurants.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -33,7 +33,7 @@
 }
 
 .brewerieshover:hover {
-    background-image: url(../assets/AttractionsImgs/Breweries.png);
+    /* background-image: url(../assets/AttractionsImgs/Breweries.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -54,7 +54,7 @@
 }
 
 .casinohover:hover {
-    background-image: url(../assets/AttractionsImgs/Casino.png);
+    /* background-image: url(../assets/AttractionsImgs/Casino.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -75,7 +75,7 @@
 }
 
 .downtownhover:hover {
-    background-image: url(../assets/AttractionsImgs/Downtown.png);
+    /* background-image: url(../assets/AttractionsImgs/Downtown.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -96,7 +96,7 @@
 }
 
 .libertyhover:hover {
-    background-image: url(../assets/AttractionsImgs/Liberty.png);
+    /* background-image: url(../assets/AttractionsImgs/Liberty.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -117,7 +117,7 @@
 }
 
 .museumhover:hover {
-    background-image: url(../assets/AttractionsImgs/Museums.png);
+    /* background-image: url(../assets/AttractionsImgs/Museums.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -138,7 +138,7 @@
 }
 
 .newporthover:hover {
-    background-image: url(../assets/AttractionsImgs/Newport.png);
+    /* background-image: url(../assets/AttractionsImgs/Newport.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -159,7 +159,7 @@
 }
 
 .otrhover:hover {
-    background-image: url(../assets/AttractionsImgs/OTR.png);
+    /* background-image: url(../assets/AttractionsImgs/OTR.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -180,7 +180,7 @@
 }
 
 .favoriteshover:hover {
-    background-image: url(../assets/AttractionsImgs/Favorites.png);
+    /* background-image: url(../assets/AttractionsImgs/Favorites.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -201,7 +201,7 @@
 }
 
 .parkshover:hover {
-    background-image: url(../assets/AttractionsImgs/Parks.png);
+    /* background-image: url(../assets/AttractionsImgs/Parks.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -222,7 +222,7 @@
 }
 
 .sporthover:hover {
-    background-image: url(../assets/AttractionsImgs/Sports.png);
+    /* background-image: url(../assets/AttractionsImgs/Sports.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -243,14 +243,14 @@
 }
 
 .musichover:hover {
-    background-image: url(../assets/AttractionsImgs/Music.png);
+    /* background-image: url(../assets/AttractionsImgs/Music.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
     filter: grayscale(0);
 }
 
-
+/* main */
 
 .jumbotron h1 {
     font-family: 'Kaushan Script';
@@ -272,6 +272,70 @@
     padding-bottom: 50px;
 }
 
+/* .singleattraction {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    text-align: center;
+} */
+
+.container.card {
+    margin-top: 15px;
+    border: none;
+    text-align: center;
+    justify-self: center;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.card-title {
+    font-family: 'Kaushan Script';
+    text-align: inherit;
+    font-size: 30px;
+    color: #343A40;
+    text-shadow: 2px 2px 3px #ADB5BD;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.list-group-item {
+    font-weight: bolder;
+    padding: 0px !important;
+}
+
+.card-link {
+    padding: 0px !important;
+    text-decoration: none;
+    color: #343A40;
+    font-size: 18px;
+    text-shadow: 2px 2px 3px #ADB5BD;
+}
+
+.card-link:hover {
+    color: #6C757D;
+}
+
+.card-body {
+    padding: 0.5rem !important;
+}
+
+.card-img-top {
+    filter: grayscale(1);
+    width: 25em;
+}
+
+.card-img-top:hover {
+    filter: grayscale(0);
+}
+
+/* .singleattraction a {
+    text-decoration: none;
+}
+
 .singleattraction img {
     filter: grayscale(1);
     width: 25em;
@@ -279,7 +343,7 @@
 
 .singleattraction img:hover {
     filter: grayscale(0);
-}
+} */
 
 @media (max-width: 800px) {
     .jumbotron h1 {
@@ -366,25 +430,11 @@
       font-size: 20px;
     }
 
-    .singleattraction img {
+    .card-img-top {
         filter: none;
-        height: 200px;
-        width: 200px;
+    }
+
+    .card {
+        size: 1em;
     }
   }
-
-
-/* @media (max-width: 800px) {
-    .attractionImage {
-      height: 10em;
-    }
-    .attractionTitle {
-        font-size: 1.5em;
-    }
-    .attractionDescription {
-        font-size: 1em;
-    }
-    .attractionImage {
-        filter: grayscale(0);
-    }
-  } */

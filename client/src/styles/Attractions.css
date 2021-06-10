@@ -88,7 +88,7 @@
   }
 
 .attracthover:hover {
-    background-image: url(../assets/AttractionsImgs/9.png);
+    /* background-image: url(../assets/AttractionsImgs/9.png); */
     background-size: cover;
     filter: grayscale(0);
     /* background-attachment: fixed; */
