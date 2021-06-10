@@ -2,20 +2,12 @@ const express = require('express');
 const cors = require('cors');
 const mongoose = require('mongoose');
 // const path = require('path');
-// const router = require('./routes/Attractions')
+ const router = require('./routes/Attractions')
 require('dotenv').config();
 
 const app = express();
 const http = require("http");
 const PORT= process.env.PORT || 5000;
-const SERVER = http.createServer();
-SERVER.listen(PORT);
-SERVER.on("listening", () => {
-  console.log("[Server]::LISTEN:%s", PORT);
-});
-SERVER.on("error", error => {
-  throw new Error(`[Server]::ERROR:${error.message}`);
-});
 
 
 app.use(cors());
