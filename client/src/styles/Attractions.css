@@ -54,6 +54,8 @@
 
 .attractionWeb:hover {
     text-decoration: none;
+    transform: scale(1.1) !important;
+    color: #343A40;
 }
 
 .attractionImage:hover {
@@ -131,6 +133,35 @@
 .att {
     display: flex;
     justify-content: center;
+    padding-top: 75px;
+    font-family: 'Kaushan Script';
+    color: #6C757D;
+    text-align: center;
+    text-shadow: 2px 2px 3px #E9ECEF;
+}
+
+.att h2 {
+    font-size: 40px !important;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald';
+    font-weight: bolder;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bolder;
+    color: #E9ECEF;
+    font-size: 22px;
+    text-shadow: 1px 1px 2px #212529;
+    padding-bottom: 25px;
+    padding-top: 15px;
+}
+
+.button:hover{
+    color: #E9ECEF;
+    text-decoration: none;
+    transform: scale(1.1);
 }
 
 @media (max-width: 800px) {
