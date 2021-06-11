@@ -31,7 +31,7 @@
         </ul></div>
       </div>
       <div className="col-6 col-md">
-        <h5 className='footerName'>Matt Moore</h5>
+        <h5 className='footerName'>Matthew Moore</h5>
         <ul className="list-unstyled text-small">
         <li>
          <div id="icons">
