@@ -1,7 +1,7 @@
 import React from 'react'
 import '../styles/SingleAttraction.css'
 
-export const Parks = () => {
+const Parks = () => {
     return (
         <div>
             <div className = 'home'>
