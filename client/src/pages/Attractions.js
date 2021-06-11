@@ -72,12 +72,17 @@ export default class Attractions extends Component {
           <h1>The Queen City <span className='crown'><i class="fas fa-crown fa-xs"></i></span> Porkopolis <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The City That Sings <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The 'Nati</h1>
           <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
       </div>
+      
                 <div className='AttractionsContainer'>
                     <h2 className='AttractionsHeader'></h2>
                     <div className='AttractionsInnerContainer'>
                         {this.AttractionsList()}
                     </div>  </div>
-                   
+                    <div className="container att">
+                    <div>
+                    <h2>Did We Miss Your Favorite Attraction?</h2><br/></div>
+                    <div>
+                   <a href="/NewAttraction" class="button">Add Attraction</a></div></div>
                     </div>
             ) : (
                 <div>
