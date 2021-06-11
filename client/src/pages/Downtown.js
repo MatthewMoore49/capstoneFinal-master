@@ -15,31 +15,49 @@ export const Downtown = () => {
       <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
   </div>
     </div>
-        <div className = 'singleattraction'>
-            <a href="http://www.arnoldsbarandgrill.com/default.htm" target="_blank" rel="noreferrer"><h1>Arnold’s Bar & Grill</h1></a>
-        <img src="https://images2.imgbox.com/e3/bb/T3aCPe9P_o.png" alt="Arnold’s Bar & Grill"/>
-        <p>210 E 8th St, Cincinnati, OH 45202</p>
-        </div>
-        <div className = 'singleattraction'>
-            <a href="https://www.facebook.com/blaCkCoffeeCincy/" target="_blank" rel="noreferrer"><h1>BlaCk Coffee Lounge</h1></a>
-        <img src="https://images2.imgbox.com/fd/f8/jeuRncFt_o.png" alt="BlaCk Coffee Lounge"/>
-        <p>824 Elm St, Cincinnati, OH 45202</p>
-        </div>
-        <div className = 'singleattraction'>
-            <a href="http://thebankscincy.com/" target="_blank" rel="noreferrer"><h1>The Banks</h1></a>
-        <img src="https://images2.imgbox.com/e1/be/XSNwQQQ4_o.png" alt="The Banks"/>
-        <p>150 E Freedom Way, Cincinnati, OH 45202</p>
-        </div>
-        <div className = 'singleattraction'>
-            <a href="https://www.cincinnatiarts.org/aronoff-center" target="_blank" rel="noreferrer"><h1>The Aronoff</h1></a>
-        <img src="https://images2.imgbox.com/1b/3c/YBoF6ZDa_o.png" alt="The Aronoff"/>
-        <p>650 Walnut St, Cincinnati, OH 45202</p>
-        </div>
-        <div className = 'singleattraction'>
-            <a href="https://www.contemporaryartscenter.org/" target="_blank" rel="noreferrer"><h1>Contemporary Art Center</h1></a>
-        <img src="https://images2.imgbox.com/be/a6/SUsMk5aN_o.png" alt="Contemporary Art Center"/>
-        <p>44 E 6th St, Cincinnati, OH 45202</p>
-        </div>
+
+    <div className="container card" data-aos="fade-left" style={{width: '27rem'}}>
+           <h5 className="card-title">BlaCk Coffee Lounge</h5>
+  <img src="https://images2.imgbox.com/fd/f8/jeuRncFt_o.png" className="card-img-top" alt="BlaCk Coffee Lounge" />
+  <div className="card-body">
+    <p className="card-text">BlaCk Coffee Lounge is a Black-owned coffee establishment located directly next to BlaCk OWned Outerwear at the corner of Elm and West 9th Street. The menu boasts a wide variety of espresso, home-brewed coffees, like the ‘Wakanda’ blend, cold-pressed juices, and light bites, including vegan options.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">824 Elm St, Cincinnati, OH 45202</li>
+  </ul>
+  <div class="card-body">
+    <a href="https://www.facebook.com/blaCkCoffeeCincy/" target="_blank" rel="noreferrer" class="card-link">Visit</a>
+  </div>
+</div>
+
+    <div className="container card" data-aos="fade-right" style={{width: '27rem'}}>
+           <h5 className="card-title">The Banks</h5>
+  <img src="https://images2.imgbox.com/e1/be/XSNwQQQ4_o.png" className="card-img-top" alt="The Banks" />
+  <div className="card-body">
+    <p className="card-text">The Banks is an electrifying cityscape, buzzing and bustling with thousands of people reigniting their passion, by day and night, for the City we all love. Downtown Cincy will never be the same. One visit and neither will you.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">150 E Freedom Way, Cincinnati, OH 45202</li>
+  </ul>
+  <div class="card-body">
+    <a href="http://thebankscincy.com/" target="_blank" rel="noreferrer" class="card-link">Visit</a>
+  </div>
+</div>
+
+    <div className="container card" data-aos="fade-left" style={{width: '27rem'}}>
+           <h5 className="card-title">Contemporary Art Center</h5>
+  <img src="https://images2.imgbox.com/be/a6/SUsMk5aN_o.png" className="card-img-top" alt="Contemporary Art Center" />
+  <div className="card-body">
+    <p className="card-text">The Contemporary Arts Center is a contemporary art museum in Cincinnati, and one of the first contemporary art institutions in the United States. The CAC focuses on new developments in painting, sculpture, photography, architecture, performance art and new media.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">44 E 6th St, Cincinnati, OH 45202</li>
+  </ul>
+  <div class="card-body">
+    <a href="https://www.contemporaryartscenter.org/" target="_blank" rel="noreferrer" class="card-link">Visit</a>
+  </div>
+</div>
+
     </div>
     )
 }

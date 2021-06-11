@@ -22,11 +22,13 @@ connection.once('open', () => {
 });
 mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 
-const attractionsRouter = require('./routes/Attractions');
+const attractionsRouter = require('./routes/attractions')
+const contactRouter = require('./routes/contact')
+//const NewAttractionRouter = require('./routes/NewAttraction')
 
-
-app.use('/attractions', attractionsRouter);
-
+app.use('/attractions', attractionsRouter)
+app.use('/Contact', contactRouter)
+//app.use('/NewAttraction', NewAttractionRouter)
 
 
 

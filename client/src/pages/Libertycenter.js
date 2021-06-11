@@ -15,31 +15,48 @@ export const Liberty = () => {
       <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
   </div>
     </div>
-        <div className = 'singleattraction'>
-            <a href="https://topgolf.com/us/west-chester/" target="_blank"  rel="noreferrer"><h1>Top Golf</h1></a>
-        <img src="https://images2.imgbox.com/e8/b3/pTqF0gGR_o.png" alt="Top Golf"/>
-        <p>9568 Water Front Dr, West Chester Township, OH 45069</p>
-        </div>
-        <div className = 'singleattraction'>
-            <a href="https://www.therooseveltroomoh.com/" target="_blank" rel="noreferrer"><h1>Roosevelt Room</h1></a>
-        <img src="https://images2.imgbox.com/b1/49/f8aYx5w2_o.png" alt="Roosevelt Room"/>
-        <p>7500 Bales St. #A-104, Liberty Township, OH 45069</p>
-        </div>
-        <div className = 'singleattraction'>
-            <a href="https://www.iflyworld.com/cincinnati/" target="_blank" rel="noreferrer"><h1>iFly</h1></a>
-        <img src="https://images2.imgbox.com/52/b3/kAHmInin_o.png" alt="iFly"/>
-        <p>7689 Warehouse Row, Liberty Township, OH 45069</p>
-        </div>
-        <div className = 'singleattraction'>
-            <a href="https://liberty.funnybone.com/" target="_blank" rel="noreferrer"><h1>Funny Bone</h1></a>
-        <img src="https://images2.imgbox.com/b7/ed/onBNaP9g_o.png" alt="Funny Bone"/>
-        <p>7518 Bales Street, 120 A-120 A, Liberty Township, OH 45069</p>
-        </div>
-        <div className = 'singleattraction'>
-            <a href="https://agaveandrye.com/liberty-tour/" target="_blank" rel="noreferrer"><h1>Agave & Rye</h1></a>
-        <img src="https://images2.imgbox.com/4d/48/luOlOy7A_o.png" alt="Agave & Rye"/>
-        <p>7125 Fountain View Dr, Liberty Township, OH 45069</p>
-        </div>
+
+    <div className="container card" data-aos="fade-right" style={{width: '27rem'}}>
+           <h5 className="card-title">Roosevelt Room</h5>
+  <img src="https://images2.imgbox.com/b1/49/f8aYx5w2_o.png" className="card-img-top" alt="Roosevelt Room" />
+  <div className="card-body">
+    <p className="card-text">Guests of The Roosevelt Room will marvel at the attention to detail and incredible interior of Liberty Center's first bar only concept. The space is modeled entirely after 26th U.S. President, Teddy Roosevelt. A mural adorns the entrance wall featuring a rearing horse, paying homage to Roosevelt's position as Lieutenant Colonel of the Rough Riders. The craft cocktail list furthers the Roosevelt theme with Mint Juleps and a robust tap list. Have a seat at the bar and admire the ambiance.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">7500 Bales St. #A-104, Liberty Township, OH 45069</li>
+  </ul>
+  <div class="card-body">
+    <a href="https://www.therooseveltroomoh.com/" target="_blank" rel="noreferrer" class="card-link">Visit</a>
+  </div>
+</div>
+
+    <div className="container card" data-aos="fade-left" style={{width: '27rem'}}>
+           <h5 className="card-title">iFly</h5>
+  <img src="https://images2.imgbox.com/52/b3/kAHmInin_o.png" className="card-img-top" alt="iFly" />
+  <div className="card-body">
+    <p className="card-text">iFLY creates a true free-fall experience without jumping out of a plane. The vertical wind tunnel generates a wall-to-wall cushion of air you will safely float on. No parachute required – it's just you, an iFLY certified instructor, and the power of the wind! You'll feel a sense of freedom you've never felt before.</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">7689 Warehouse Row, Liberty Township, OH 45069</li>
+  </ul>
+  <div class="card-body">
+    <a href="https://www.iflyworld.com/cincinnati/" target="_blank" rel="noreferrer" class="card-link">Visit</a>
+  </div>
+</div>
+
+    <div className="container card" data-aos="fade-right" style={{width: '27rem'}}>
+           <h5 className="card-title">Agave & Rye</h5>
+  <img src="https://images2.imgbox.com/4d/48/luOlOy7A_o.png" className="card-img-top" alt="Agave & Rye" />
+  <div className="card-body">
+    <p className="card-text">Offering a menu that features 17 “epic” gourmet specialty tacos, seven street tacos, plus a liquor list brimming with more than 120 tequilas and bourbons. The restaurant’s colorful decor is “unique, urban, funky, chic with a tad of grunge.”</p>
+  </div>
+  <ul class="list-group list-group-flush">
+    <li class="list-group-item">7125 Fountain View Dr, Liberty Township, OH 45069</li>
+  </ul>
+  <div class="card-body">
+    <a href="https://agaveandrye.com/liberty-tour/" target="_blank" rel="noreferrer" class="card-link">Visit</a>
+  </div>
+</div>
     </div>
     )
 }
