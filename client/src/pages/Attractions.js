@@ -26,7 +26,7 @@ const Attraction = (props) => {
 }
 
      
-export default class Attractions extends Component {
+ class Attractions extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -91,3 +91,4 @@ export default class Attractions extends Component {
         )
     }
 }
+export default Attractions
