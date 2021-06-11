@@ -88,7 +88,6 @@
   }
 
 .attracthover:hover {
-    /* background-image: url(../assets/AttractionsImgs/9.png); */
     background-size: cover;
     filter: grayscale(0);
     /* background-attachment: fixed; */
@@ -127,6 +126,11 @@
     font-size: 22px;
     margin-left: 15px;
     margin-right: 15px;
+}
+
+.att {
+    display: flex;
+    justify-content: center;
 }
 
 @media (max-width: 800px) {

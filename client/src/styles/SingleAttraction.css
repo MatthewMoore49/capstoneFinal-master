@@ -12,7 +12,6 @@
 }
 
 .restauranthover:hover {
-    /* background-image: url(../assets/AttractionsImgs/Restaurants.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -33,7 +32,6 @@
 }
 
 .brewerieshover:hover {
-    /* background-image: url(../assets/AttractionsImgs/Breweries.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -54,7 +52,6 @@
 }
 
 .casinohover:hover {
-    /* background-image: url(../assets/AttractionsImgs/Casino.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -75,7 +72,6 @@
 }
 
 .downtownhover:hover {
-    /* background-image: url(../assets/AttractionsImgs/Downtown.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -96,7 +92,6 @@
 }
 
 .libertyhover:hover {
-    /* background-image: url(../assets/AttractionsImgs/Liberty.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -117,7 +112,6 @@
 }
 
 .museumhover:hover {
-    /* background-image: url(../assets/AttractionsImgs/Museums.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -138,7 +132,6 @@
 }
 
 .newporthover:hover {
-    /* background-image: url(../assets/AttractionsImgs/Newport.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -159,7 +152,6 @@
 }
 
 .otrhover:hover {
-    /* background-image: url(../assets/AttractionsImgs/OTR.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -180,7 +172,6 @@
 }
 
 .favoriteshover:hover {
-    /* background-image: url(../assets/AttractionsImgs/Favorites.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -201,7 +192,6 @@
 }
 
 .parkshover:hover {
-    /* background-image: url(../assets/AttractionsImgs/Parks.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -222,7 +212,6 @@
 }
 
 .sporthover:hover {
-    /* background-image: url(../assets/AttractionsImgs/Sports.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -243,7 +232,6 @@
 }
 
 .musichover:hover {
-    /* background-image: url(../assets/AttractionsImgs/Music.png); */
     background-size: cover;
     /* background-attachment: fixed;
     background-size: 115%; */
@@ -271,15 +259,6 @@
     text-align: center;
     padding-bottom: 50px;
 }
-
-/* .singleattraction {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding-top: 15px;
-    text-align: center;
-} */
 
 .container.card {
     margin-top: 15px;
@@ -331,19 +310,6 @@
 .card-img-top:hover {
     filter: grayscale(0);
 }
-
-/* .singleattraction a {
-    text-decoration: none;
-}
-
-.singleattraction img {
-    filter: grayscale(1);
-    width: 25em;
-}
-
-.singleattraction img:hover {
-    filter: grayscale(0);
-} */
 
 @media (max-width: 800px) {
     .jumbotron h1 {
