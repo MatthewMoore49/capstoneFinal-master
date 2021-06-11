@@ -45,3 +45,29 @@
     font-weight: bolder;
     text-shadow: 1px 1px 2px #495057;
 }
+@media only screen 
+
+ 
+  and (min-device-width: 350px) 
+  and (max-device-width: 800px) 
+   and (orientation:-webkit-resizer)
+   and  (-webkit-min-device-pixel-ratio: 0) {
+
+    
+    
+
+
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
