@@ -65,22 +65,26 @@
 
 @media (max-width: 800px) {
     .jumbotron h1 {
-      font-size: 2em;
-    }
-    .contacthover {
-      background-size: cover;
-      max-height: 100px;
-      max-width: 100%;
-      /* filter: none; */
-    }
-
-    .contactheader h1{
-      font-size: 20px;
-    }
-
-    .contactheader h2{
-      font-size: 20px;
-    }
+        font-size: 2em;
+      }
+      .contacthover {
+        background-size: cover;
+        max-height: 100px;
+        max-width: 100%;
+     filter: none;
+      }
+  
+      .contactheader h1{
+        font-size: 20px;
+      }
+  
+      .contactheader h2{
+        font-size: 20px;
+      }
+      .form-group {
+          width: 250px;
+  
+      }
   }
 
  

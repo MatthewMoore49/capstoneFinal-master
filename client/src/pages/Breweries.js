@@ -15,6 +15,7 @@ export const Breweries = () => {
           <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
       </div>
         </div>
+     <div className="cards1">
            <div className="container card" data-aos="fade-left" style={{width: '27rem'}}>
            <h5 className="card-title">Rhinegeist Brewery</h5>
   <img src="https://images2.imgbox.com/4a/d7/dNyZJw07_o.png" className="card-img-top" alt="Rhinegeist Brewery" />
@@ -28,7 +29,7 @@ export const Breweries = () => {
     <a href="https://rhinegeist.com/" target="_blank" rel="noreferrer" class="card-link">Visit</a>
   </div>
 </div>
-
+</div>
 
            <div className="container card" data-aos="fade-right" style={{width: '27rem'}}>
            <h5 className="card-title">MadTree Brewing</h5>

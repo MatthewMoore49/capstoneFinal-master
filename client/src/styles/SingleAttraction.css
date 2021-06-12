@@ -396,11 +396,17 @@
       font-size: 20px;
     }
 
+    .container.card {
+        width: 18em !important;
+        height: 18em !important;
+        margin-bottom: 300px;
+        filter: none;
+    }
+    .card-text {
+        font-size: 12px;
+    }
     .card-img-top {
         filter: none;
     }
 
-    .card {
-        size: 1em;
-    }
   }

@@ -201,4 +201,7 @@
     .attractionImage {
         filter: grayscale(0);
     }
+    .att h2{
+        font-size: 30px !important;
+    }
   }

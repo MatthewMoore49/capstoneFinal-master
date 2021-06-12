@@ -22,18 +22,18 @@
     .jumbotron h1 {
       font-size: 2em;
     }
-    .abouthover {
+    .attracthover {
       background-size: cover;
       max-height: 100px;
       max-width: 100%;
-      /* filter: none; */
+      filter: none;
     }
 
-    .aboutheader h1{
+    .attractheader h1{
       font-size: 20px;
     }
 
-    .aboutheader h2{
+    .attractheader h2{
       font-size: 20px;
     }
   }
