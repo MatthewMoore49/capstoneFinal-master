@@ -64,7 +64,7 @@ export default class Attractions extends Component {
                 </div>
             ) : (
                 <div>
-                    <h1 className="loading-spinner">Loading...</h1>
+                    <h1 className="loading-spinner">Loading.....</h1>
                 </div>
             )
         )
