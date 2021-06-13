@@ -11,9 +11,9 @@ const Navbar = () => {
         <li><Link to="/">Home</Link></li>
         <li><Link to="/about">About</Link></li>
         <li><Link to="/contact">Contact</Link></li>
-        <li><Link to="/attractions">All Attractions</Link></li>
+        <li><Link path to="/Attractions">All Attractions</Link></li>
 <li className="dropdown">
-  <Link className="dropbtn" href>Categories</Link>
+  <Link className="dropbtn" to=''>Categories</Link>
   <div className="dropdown-content">
     <Link className='dropdowna' to="/Breweries">Breweries</Link>
     <Link className='dropdowna' to="/Casinos">Casinos</Link>

@@ -11,7 +11,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='homeheader'>
-                <h1>The Queen City <span className='crown'><i class="fas fa-crown fa-xs"></i></span> Porkopolis <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The City That Sings <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The 'Nati</h1>
+                <h1>The Queen City <span className='crown'><i className="fas fa-crown fa-xs"></i></span> Porkopolis <span className='crown'><i className="fas fa-crown fa-xs"></i></span> The City That Sings <span className='crown'><i className="fas fa-crown fa-xs"></i></span> The 'Nati</h1>
                 <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
             </div>
                 <div className='blurb'>

@@ -12,15 +12,14 @@ const PORT= process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 app.use(express.static('client/build'));
-const CONNECTION_URL = 'mongodb+srv://general:kableCap21@cluster0.dzt8m.mongodb.net/attractions?retryWrites=true&w=majority';
+const CONNECTION_URL = process.env.BACKEND_URL;
 
-app.use(express.json());
+mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 
 const connection = mongoose.connection;
 connection.once('open', () => {
   console.log("MongoDB database connection established successfully");
 });
-mongoose.connect(CONNECTION_URL, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true });
 
 const attractionsRouter = require('./routes/Attractions')
 const contactRouter = require('./routes/Contact')
@@ -32,10 +31,6 @@ app.use('/Contact', contactRouter)
 
 
 
-app.listen(PORT, () => {
-    console.log(`Server is running on PORT: ${PORT}`);
-
-});
 
 if (process.env.NODE_ENV === 'production') {
   app.use(express.static('client/build'))
@@ -46,6 +41,10 @@ if (process.env.NODE_ENV === 'production') {
 
 
 
+app.listen(PORT, () => {
+    console.log(`Server is running on PORT: ${PORT}`);
+
+});
 
 
 

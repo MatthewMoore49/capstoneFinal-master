@@ -23,7 +23,8 @@ const Attraction = (props) => {
 }
 
      
- class Attractions extends Component {
+ 
+export default class Attractions extends Component {
     constructor(props) {
         super(props)
         this.state = {
@@ -32,7 +33,7 @@ const Attraction = (props) => {
         };
     }
     componentDidMount() {
-        axios.get(BACKEND_URL + 'attractions/')
+        axios.get(BACKEND_URL + 'Attractions/')
         .then(response => {
             this.setState({
                 attractions: response.data,
@@ -44,42 +45,23 @@ const Attraction = (props) => {
             console.log(error)
         });
     }
-
-
-
-    AttractionsList() {
+    attractionsList() {
         return this.state.attractions.map((currentAttraction) => {
-           return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
+            return <Attraction attraction = {currentAttraction} key={currentAttraction._id} />
         })
-   }
-
+    }
 
     render() {
         return (
-        
             this.state.loading === false ? (
                 <div className='row'>
-                <div className="jumbotron jumbotron-fluid attracthover">
-          <div className="attractcontainer">
-              <h1>Explore Cincinnati</h1>
-          </div>
-      </div>
-      <div className='attractheader'>
-          <h1>The Queen City <span className='crown'><i class="fas fa-crown fa-xs"></i></span> Porkopolis <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The City That Sings <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The 'Nati</h1>
-          <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
-      </div>
-      
-                <div className='AttractionsContainer'>
-                    <h2 className='AttractionsHeader'>Attractions</h2>
-                    <div className='AttractionsInnerContainer'>
-                        {this.AttractionsList()}
-                    </div>  </div>
-                    <div className="container att">
-    
-                    <h2>Did We Miss Your Favorite Attraction?</h2><br/></div>
-                    <div>
-                   <a href="/NewAttraction" class="container button">Add Attraction</a></div>
+                <div className='attractionsContainer'>
+                    <h2 className='attractionsHeader'>Attractions</h2>
+                    <div className='attractionsInnerContainer'>
+                        {this.attractionsList()}
                     </div>
+                </div>
+                </div>
             ) : (
                 <div>
                     <h1 className="loading-spinner">Loading...</h1>
@@ -88,4 +70,3 @@ const Attraction = (props) => {
         )
     }
 }
-export default Attractions
