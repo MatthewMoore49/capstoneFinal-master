@@ -13,20 +13,20 @@ const Navbar = () => {
         <li><Link to="/contact">Contact</Link></li>
         <li><Link to="/attractions">All Attractions</Link></li>
 <li className="dropdown">
-  <a className="dropbtn" href>Categories</a>
+  <Link className="dropbtn" href>Categories</Link>
   <div className="dropdown-content">
-    <a className='dropdowna' href="/Breweries">Breweries</a>
-    <a className='dropdowna' href="/Casinos">Casinos</a>
-    <a className='dropdowna' href="/Museums">Museums</a>
-    <a className='dropdowna' href="/Music">Music Venues</a>
-    <a className='dropdowna' href="/OurFavories">Our Favorites</a>
-    <a className='dropdowna' href="/Parks">Parks</a>
-    <a className='dropdowna' href="/Restaurants">Restaurants</a>
-    <a className='dropdowna' href="/Sports">Sports</a> 
-    <a className='dropdowna' href="/Downtown">Visit Downtown</a>
-    <a className='dropdowna' href="/Libertycenter">Visit Liberty Center</a>
-    <a className='dropdowna' href="/Newport">Visit Newport</a>
-    <a className='dropdowna' href="/Otr">Visit OTR</a>
+    <Link className='dropdowna' to="/Breweries">Breweries</Link>
+    <Link className='dropdowna' to="/Casinos">Casinos</Link>
+    <Link className='dropdowna' to="/Museums">Museums</Link>
+    <Link className='dropdowna' to="/Music">Music Venues</Link>
+    <Link className='dropdowna' to="/OurFavories">Our Favorites</Link>
+    <Link className='dropdowna' to="/Parks">Parks</Link>
+    <Link className='dropdowna' to="/Restaurants">Restaurants</Link>
+    <Link className='dropdowna' to="/Sports">Sports</Link> 
+    <Link className='dropdowna' to="/Downtown">Visit Downtown</Link>
+    <Link className='dropdowna' to="/Libertycenter">Visit Liberty Center</Link>
+    <Link className='dropdowna' to="/Newport">Visit Newport</Link>
+    <Link className='dropdowna' to="/Otr">Visit OTR</Link>
   </div>
 </li>
 

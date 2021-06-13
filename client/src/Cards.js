@@ -18,98 +18,98 @@ const Cards = () => {
         <div className="container-fluid" id='cards'>
         <div className="imgWithText">
                 <div className="gridElements">
-                <a href='./Sports'>
+                <Link to='./Sports'>
                 <img src={Sports} alt="hockey"/> 
                 <p className="bottom-left">SPORTS</p>
-                </a> 
+                </Link> 
                 </div>
                 </div>
                <div className="imgWithText">
                 <div className="gridElements">
-                <a href="./Casinos">
+                <Link to="./Casinos">
                 <img src={Casinos} alt="casino"/> 
                     <p className="bottom-left">CASINOS</p>
-                </a> 
+                </Link> 
                 </div>
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                    <a href="./Music">
+                    <Link to="./Music">
                     <img src={Music} alt="music"/> 
                     <p className="bottom-left">MUSIC</p>
-                    </a> 
+                    </Link> 
                 </div>
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='./Parks'>
+                <Link to='./Parks'>
                 <img src={Parks} alt="park"/> 
                     <p className="bottom-left">PARKS</p> 
-                </a>
+                </Link>
                 </div>
                 </div>
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='./Museums'>
+                <Link to='./Museums'>
                 <img src={Museums} alt="Museums"/> 
                     <p className="bottom-left">MUSEUMS</p> 
-                </a>
+                </Link>
                 </div>
                 </div>
                 
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='./Restaurants'>
+                <Link to='./Restaurants'>
                 <img src={Food} alt="food"/> 
                     <p className="bottom-left">FOOD</p> 
-                    </a>
+                    </Link>
                 </div>
                 </div> <div className="imgWithText">
                 <div className="gridElements">
-                <a href='./Otr'>
+                <Link to='./Otr'>
                 <img src={OTR} alt="OTR"/> 
                     <p className="bottom-left">VISIT OTR</p> 
-                </a>
+                </Link>
                 </div>
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='./Breweries'>
+                <Link to='./Breweries'>
                 <img src={Breweries} alt="breweries"/> 
                     <p className="bottom-left">BREWERIES</p> 
-                </a>
+                </Link>
                 </div>
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='./OurFavories'>
+                <Link to='./OurFavories'>
                 <img src={Others} alt="other"/> 
                     <p className="bottom-left">OUR FAVORITES</p> 
-                </a>
+                </Link>
                 </div>
                 </div>  
                    <div className="imgWithText">
                 <div className="gridElements">
-                <a href='./Libertycenter'>
+                <Link to='./Libertycenter'>
                 <img src={Liberty} alt="Liberty Center"/> 
                     <p className="bottom-left">VISIT LIBERTY CENTER</p> 
-                </a>
+                </Link>
                 </div>
                 </div>     
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='./Newport'>
+                <Link to='./Newport'>
                 <img src={Newport} alt="Newport"/> 
                     <p className="bottom-left">VISIT NEWPORT</p> 
-                </a>
+                </Link>
                 </div>
                 </div>  
                 <div className="imgWithText">
                 <div className="gridElements">
-                <a href='./Downtown'>
+                <Link to='./Downtown'>
                 <img src={Downtown} alt="downtown"/> 
                     <p className="bottom-left">VISIT DOWNTOWN</p> 
-                </a>
+                </Link>
                 </div>
                 </div>   
     </div> 

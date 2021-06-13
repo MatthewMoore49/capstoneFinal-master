@@ -22,13 +22,14 @@ export const Newport = () => {
   <div className="card-body">
     <p className="card-text">The Hofbräuhaus Newport is a restaurant attraction in the popular Newport on the Levee area of Northern Kentucky. From the traditionally decorated rooms, to the excellent bier and tasty German and American fare, Hofbräuhaus Newport is sure to be a memorable experience for everyone.</p>
   </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">200 3rd St, Newport, KY 41071</li>
+  <ul className="list-group list-group-flush">
+    <li className="list-group-item">200 3rd St, Newport, KY 41071</li>
   </ul>
-  <div class="card-body">
-    <a href="https://www.hofbrauhausnewport.com/" target="_blank" rel="noreferrer" class="card-link">Visit</a>
+  <div className="card-body">
+    <a href="https://www.hofbrauhausnewport.com/" target="_blank" rel="noreferrer" className="card-link">Visit</a>
   </div>
-</div>
+  </div>
+
 
         <div className="container card" data-aos="fade-left" style={{width: '27rem'}}>
            <h5 className="card-title">Newport Aquarium</h5>
@@ -50,15 +51,18 @@ export const Newport = () => {
   <div className="card-body">
     <p className="card-text">Step aboard for amazing views from the Belle of Cincinnati or the River Queen. Whether in the climate-controlled areas or the open-air upper decks, during a dining cruise or kids' cruise, you're sure to appreciate the relaxing pace of river life.</p>
   </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item">101 Riverboat Row, Newport, KY 41071</li>
+<div>
+  <ul className="list-group list-group-flush">
+    <li className="list-group-item">101 Riverboat Row, Newport, KY 41071</li>
   </ul>
-  <div class="card-body">
-    <a href="http://www.bbriverboats.com/" target="_blank" rel="noreferrer" class="card-link">Visit</a>
+  <div className="card-body">
+    <a href="http://www.bbriverboats.com/" target="_blank" rel="noreferrer" className="card-link">Visit</a>
   </div>
 </div>
+</div>
+</div>
+
           
-        </div>
     )
 }
 
