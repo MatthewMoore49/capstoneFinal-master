@@ -10,7 +10,7 @@
      
       <div className="col-6 col-md">
         <h5 className='footerName'>Capstone Project</h5>
-        <ul className="list-unstyled text-small">
+        <ul className="list-unstyled text-small footercaption">
           <li>This project was created by a team of students from Kable Academy's Spring 2021 Web Development Bootcamp</li>
         </ul>
       </div>

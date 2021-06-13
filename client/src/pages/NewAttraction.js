@@ -1,7 +1,6 @@
 
 import React, { Component } from 'react';
 import axios from 'axios';
-
 import '../styles/NewAttraction.css';
 import {BACKEND_URL} from '../config'
 import { withRouter } from 'react-router-dom'
@@ -83,19 +82,29 @@ class NewAttraction extends Component {
         return(
             <div>
                 <div className='containerAddPage'>
-                    <h2 className='text-center' id="header-text">Add a New Attraction</h2>
+                <div className="jumbotron jumbotron-fluid attracthover">
+          <div className="attractcontainer">
+              <h1>Add New Attraction</h1>
+          </div>
+      </div>
+      <div className='attractheader'>
+          <h1>The Queen City <span className='crown'><i class="fas fa-crown fa-xs"></i></span> Porkopolis <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The City That Sings <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The 'Nati</h1>
+          <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
+      </div>
+                <div className="addform">
                     <form className='add' onSubmit={this.onSubmit}>
                         <div className="form-group">
-                            <label>Title: </label>
+                            <label>Name: </label>
                             <input type='text' required className='form-control inputs' 
                             value={this.state.title} onChange={this.onChangeTitle}>
-                            </input>
+                            </input> 
                         </div>
                         <div className="form-group">
                             <label>Description: </label>
                             <input type='text' required 
                             className='form-control' 
-                            value={this.state.description} onChange={this.onChangeDescription}>
+                            value={this.state.description} onChange={this.onChangeDescription}
+                            >
                             </input>
                         </div>
                          <div className="form-group">
@@ -113,14 +122,7 @@ class NewAttraction extends Component {
                             </input>
                         </div>
                         <div className="form-group">
-                            <label>Category: </label>
-                            <input type='text' required 
-                            className='form-control' 
-                            value={this.state.category} onChange={this.onChangeCategory}>
-                            </input>
-                        </div>
-                        <div className="form-group">
-                            <label>Location: </label>
+                            <label>Address: </label>
                             <input type='text' required 
                             className='form-control' 
                             value={this.state.location} onChange={this.onChangeLocation}>
@@ -132,7 +134,7 @@ class NewAttraction extends Component {
                         </div>
                     </form>
                 </div>
-
+</div>
             </div>
         )
     }

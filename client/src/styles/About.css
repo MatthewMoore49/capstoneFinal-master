@@ -75,7 +75,7 @@
       background-size: cover;
       max-height: 100px;
       max-width: 100%;
-      /* filter: none; */
+      filter: none;
     }
 
     .aboutheader h1{

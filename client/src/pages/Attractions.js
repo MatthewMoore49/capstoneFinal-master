@@ -78,10 +78,10 @@ const Attraction = (props) => {
                         {this.AttractionsList()}
                     </div>  </div>
                     <div className="container att">
-                    <div>
+    
                     <h2>Did We Miss Your Favorite Attraction?</h2><br/></div>
                     <div>
-                   <a href="/NewAttraction" class="button">Add Attraction</a></div></div>
+                   <a href="/NewAttraction" class="container button">Add Attraction</a></div>
                     </div>
             ) : (
                 <div>

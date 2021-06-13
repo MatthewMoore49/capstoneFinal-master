@@ -53,15 +53,30 @@
    and (orientation:-webkit-resizer)
    and  (-webkit-min-device-pixel-ratio: 0) {
 
-    
-    
-
-
-
   }
 
 
-
+  @media (max-width: 800px) {
+    .footerName {
+        font-size: 0.7em;
+    }
+    .footercaption {
+        font-size: 0.5em;
+    }
+    .footericon {
+        max-height: 1.1em;
+        max-width: 1.5em;
+        padding: 0;
+    }
+    .text-muted {
+        font-size: 0.5em;
+        max-height: 1em;
+    }
+    #footerContainer.row {
+        margin-top: 5px;
+        padding-top: 15px;
+    }
+}
 
 
 
