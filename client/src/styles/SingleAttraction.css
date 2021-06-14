@@ -1,0 +1,412 @@
+/* restaurant heroimage */
+.restauranthover {
+    background-image: url(../assets/AttractionsImgs/Restaurants.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.restauranthover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* breweries heroimage */
+.brewerieshover {
+    background-image: url(../assets/AttractionsImgs/Breweries.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.brewerieshover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* casinos heroimage */
+.casinohover {
+    background-image: url(../assets/AttractionsImgs/Casino.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.casinohover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* downtown heroimage */
+.downtownhover {
+    background-image: url(../assets/AttractionsImgs/Downtown.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.downtownhover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* liberty heroimage */
+.libertyhover {
+    background-image: url(../assets/AttractionsImgs/Liberty.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.libertyhover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* museums heroimage */
+.museumhover {
+    background-image: url(../assets/AttractionsImgs/Museums.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.museumhover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* newport heroimage */
+.newporthover {
+    background-image: url(../assets/AttractionsImgs/Newport.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.newporthover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* Otr heroimage */
+.otrhover {
+    background-image: url(../assets/AttractionsImgs/OTR.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.otrhover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* favorites heroimage */
+.favoriteshover {
+    background-image: url(../assets/AttractionsImgs/Favorites.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.favoriteshover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* parks heroimage */
+.parkshover {
+    background-image: url(../assets/AttractionsImgs/Parks.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.parkshover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* sports heroimage */
+.sporthover {
+    background-image: url(../assets/AttractionsImgs/Sports.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.sporthover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* music heroimage */
+.musichover {
+    background-image: url(../assets/AttractionsImgs/Music.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.musichover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+/* main */
+
+.jumbotron h1 {
+    font-family: 'Kaushan Script';
+    color: #F8F9FA;
+    text-align: center;
+    font-size: 75px;
+    text-shadow: 2px 2px 3px #495057;
+    /*  495057  6C757D ADB5BD CED4DA */
+}
+
+.aboutheader h1 {
+    font-family: 'Kaushan Script';
+    text-align: center;
+    padding-top: 50px;
+}
+.aboutheader h2 {
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.container.card {
+    margin-top: 15px;
+    border: none;
+    text-align: center;
+    justify-self: center;
+}
+
+.card-text {
+    font-size: 18px;
+}
+
+.card-title {
+    font-family: 'Kaushan Script';
+    text-align: inherit;
+    font-size: 30px;
+    color: #343A40;
+    text-shadow: 2px 2px 3px #ADB5BD;
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+
+.list-group-item {
+    font-weight: bolder;
+    padding: 0px !important;
+}
+
+.card-link {
+    padding: 0px !important;
+    text-decoration: none;
+    color: #343A40;
+    font-size: 18px;
+    text-shadow: 2px 2px 3px #ADB5BD;
+}
+
+.card-link:hover {
+    color: #6C757D;
+}
+
+.card-body {
+    padding: 0.5rem !important;
+}
+
+.card-img-top {
+    filter: grayscale(1);
+    width: 25em;
+}
+
+.card-img-top:hover {
+    filter: grayscale(0);
+}
+
+@media (max-width: 800px) {
+    .jumbotron h1 {
+      font-size: 2em;
+    }
+    .restauranthover{
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .musichover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .sporthover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .parkshover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .favoriteshover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .otrhover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .newporthover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .museumhover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .libertyhover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .downtownhover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .casinohover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+    .brewerieshover {
+      background-size: cover;
+      max-height: 100px;
+      max-width: 100%;
+      filter: none;
+    }
+
+    .aboutheader h1{
+      font-size: 20px;
+    }
+
+    .aboutheader h2{
+      font-size: 20px;
+    }
+
+    .container.card {
+        width: 18em !important;
+        height: 18em !important;
+        margin-bottom: 300px;
+        filter: none;
+    }
+    .card-text {
+        font-size: 12px;
+    }
+    .card-img-top {
+        filter: none;
+    }
+
+  }
