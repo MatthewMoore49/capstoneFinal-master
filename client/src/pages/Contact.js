@@ -37,7 +37,7 @@ export default class contact extends Component {
     const contact ={
       name: this.state.name,
       email: this.state.email,
-      comment: this.state.comment,
+      message: this.state.message,
     }
     console.log(contact)
     axios.post(BACKEND_URL + 'contact/add', contact)
