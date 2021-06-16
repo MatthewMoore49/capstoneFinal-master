@@ -75,7 +75,7 @@ class NewAttraction extends Component {
         axios.post(BACKEND_URL + 'attractions/add', attraction)
         .then(res => console.log(res.data));
         // window.location='/viewattractions'
-        this.props.history.push('/viewattractions');
+        //this.props.history.push('/viewattractions');
         console.log(attraction)
     };
     render() {
@@ -140,4 +140,4 @@ class NewAttraction extends Component {
     }
 }
 
-export default withRouter(NewAttraction)
+export default NewAttraction
