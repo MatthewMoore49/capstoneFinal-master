@@ -8,7 +8,7 @@ export default class contact extends Component {
     super(props)
     this.onChangeName = this.onChangeName.bind(this);
     this.onChangeEmail = this.onChangeEmail.bind(this);
-    this.onChangeQuestion = this.onChangeQuestion.bind(this);
+    this.onChangeMessage = this.onChangeMessage.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
     this.state = {
         name: " ",
@@ -27,9 +27,9 @@ export default class contact extends Component {
       email: e.target.value
     })
   }
-  onChangeQuestion(e){
+  onChangeMessage(e){
     this.setState({
-      comment: e.target.value
+      message: e.target.value
     })
   }
   onSubmit(e){
@@ -48,7 +48,7 @@ export default class contact extends Component {
     this.setState({
         name: '',
         email: '',
-        comment: ''
+        message: ''
     })
     window.alert('Thanks for reaching out!')
     console.log(contact)
@@ -97,8 +97,8 @@ export default class contact extends Component {
                   <textarea
                   type="text"
                   className="form-control"
-                  value={this.state.comment}
-                  onChange={this.onChangeQuestion}
+                  value={this.state.message}
+                  onChange={this.onChangeMessage}
                   rows='6'
                   >
                   </textarea>
