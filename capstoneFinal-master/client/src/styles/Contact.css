@@ -1,0 +1,90 @@
+/* heroimage */
+.contacthover {
+    background-image: url(../assets/ContactImgs/4.png);
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    padding: 15rem 2rem;
+    margin-bottom: 20px;
+    filter: grayscale(1);
+    z-index: 0;
+    
+}
+
+.contacthover:hover {
+    background-size: cover;
+    /* background-attachment: fixed;
+    background-size: 115%; */
+    filter: grayscale(0);
+}
+
+.contacthover h1 {
+    font-family: 'Kaushan Script';
+    color: #F8F9FA;
+    text-align: center;
+    font-size: 75px;
+    text-shadow: 2px 2px 3px #495057;
+    /*  495057  6C757D ADB5BD CED4DA */
+}
+
+.contactheader h1 {
+    font-family: 'Kaushan Script';
+    text-align: center;
+    padding-top: 50px;
+}
+.contactheader h2 {
+    padding-top: 25px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.contact-form {
+    /* display: flex;
+    flex-wrap: wrap; */
+    display: grid;
+    justify-content: center;
+    text-align: center;
+}
+
+.form-group {
+    width: 500px;
+}
+
+.contact-label {
+    font-family: 'Oswald';
+    text-shadow: 1px 1px 2px #CED4DA;
+    font-size: 21px;
+}
+
+.btn {
+    font-family: 'Oswald';
+    text-shadow: 1px 1px 2px #CED4DA;
+    font-size: 21px !important;
+    background-color: #E9ECEF !important;
+}
+
+@media (max-width: 800px) {
+    .jumbotron h1 {
+        font-size: 2em;
+      }
+      .contacthover {
+        background-size: cover;
+        max-height: 100px;
+        max-width: 100%;
+     filter: none;
+      }
+  
+      .contactheader h1{
+        font-size: 20px;
+      }
+  
+      .contactheader h2{
+        font-size: 20px;
+      }
+      .form-group {
+          width: 250px;
+  
+      }
+  }
+
+ 
