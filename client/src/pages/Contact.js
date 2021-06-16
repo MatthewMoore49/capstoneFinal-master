@@ -39,7 +39,7 @@ export default class contact extends Component {
       comment: this.state.comment,
     }
     console.log(contact)
-    axios.post('http://localhost:5000/contact/add', contact)
+    axios.post(BACKEND_URL + 'attractions/add', attraction)
     .then(res=>console.log(res.data));
     // window.location="/"
     this.props.history.push('/');

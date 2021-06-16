@@ -9,12 +9,9 @@ class NewAttraction extends Component {
     constructor (props) {
         super(props)
         this.onChangeName = this.onChangeName.bind(this);
-        // this.onChangeTitle = this.onChangeTitle.bind(this);
+      
         this.onChangeDescription= this.onChangeDescription.bind(this);
-        // this.onChangeImageURL = this.onChangeImageURL.bind(this);
-        // this.onChangeWebsite = this.Website.bind(this);
-        // this.onChangeCategory = this.onChangeCategory.bind(this);
-        // this.onChangeLocation = this.onChangeLocation.bind(this);
+     
         
         this.state = {
             name: "",
