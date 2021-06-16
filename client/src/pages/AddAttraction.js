@@ -4,7 +4,7 @@ import '../styles/NewAttraction.css';
 import {BACKEND_URL} from '../config'
 import { withRouter } from 'react-router-dom'
  
-export default class AddAttraction extends Component {
+class AddAttraction extends Component {
    constructor (props) {
        super(props)
        this.onChangeTitle = this.onChangeTitle.bind(this);
@@ -134,5 +134,5 @@ export default class AddAttraction extends Component {
    }
 }
  
-export default withRouter(AddAttraction)
+export default AddAttraction
 
