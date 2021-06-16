@@ -52,7 +52,7 @@ const App = () => {
     <Route path = '/Parks' component={Parks}/>
     <Route path = '/Restaurants' component={Restaurants}/>
     <Route path = '/Breweries' component={Breweries}/>
-    <Route path = '/NewAttraction' component={ NewAttraction }/>
+    <Route path = '/NewAttraction' component={NewAttraction}/>
     <FooterHome />
     </div>
     </BrowserRouter>
