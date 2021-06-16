@@ -63,7 +63,7 @@ export default class Attractions extends Component {
                     <div className='container att'>
                     <h2>Did We Miss Your Favorite Attraction?</h2><br/></div>
                     <div>
-                   <a href='/NewAttraction' class='container button'>Add Attraction</a></div>
+                   <a href='/AddAttraction' class='container button'>Add Attraction</a></div>
                     </div>
                 </div>
             ) : (
