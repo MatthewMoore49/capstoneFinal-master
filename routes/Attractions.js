@@ -52,9 +52,9 @@ router.route('/add').post((req, res) => {
             res.json('Attraction Added')
             
             })
-            .catch((err)=>{
-                res.status(400).json("Error: " + err)
-            })
+            // .catch((err)=>{
+            //     res.status(400).json("Error: " + err)
+            // })
 })
 
 module.exports = router;
