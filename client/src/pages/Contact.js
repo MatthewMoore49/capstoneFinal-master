@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import '../styles/Contact.css'
+import '../styles/Contact.css';
+import {BACKEND_URL} from '../config'
 
 export default class contact extends Component {
   constructor (props){
     super(props)
     this.onChangeName = this.onChangeName.bind(this);
     this.onChangeEmail = this.onChangeEmail.bind(this);
-    this.onChangeQuestion = this.onChangeQuestion.bind(this);
+    this.onChangeMessage = this.onChangeMessage.bind(this);
     this.onSubmit = this.onSubmit.bind(this);
     this.state = {
         name: " ",
@@ -26,9 +27,9 @@ export default class contact extends Component {
       email: e.target.value
     })
   }
-  onChangeQuestion(e){
+  onChangeMessage(e){
     this.setState({
-      comment: e.target.value
+      message: e.target.value
     })
   }
   onSubmit(e){
@@ -36,10 +37,10 @@ export default class contact extends Component {
     const contact ={
       name: this.state.name,
       email: this.state.email,
-      comment: this.state.comment,
+      message: this.state.message,
     }
     console.log(contact)
-    axios.post('http://localhost:5000/contact/add', contact)
+    axios.post(BACKEND_URL + 'contact/add', contact)
     .then(res=>console.log(res.data));
     // window.location="/"
     this.props.history.push('/');
@@ -47,9 +48,9 @@ export default class contact extends Component {
     this.setState({
         name: '',
         email: '',
-        comment: ''
+        message: ''
     })
-    window.alert('Thank you for your inquiry')
+    window.alert('Thanks for reaching out!')
     console.log(contact)
   }
   render() {
@@ -96,8 +97,8 @@ export default class contact extends Component {
                   <textarea
                   type="text"
                   className="form-control"
-                  value={this.state.comment}
-                  onChange={this.onChangeQuestion}
+                  value={this.state.message}
+                  onChange={this.onChangeMessage}
                   rows='6'
                   >
                   </textarea>

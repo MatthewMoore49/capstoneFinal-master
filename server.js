@@ -23,7 +23,6 @@ connection.once('open', () => {
 
 const attractionsRouter = require('./routes/Attractions')
 const contactRouter = require('./routes/Contact')
-//const NewAttractionRouter = require('./routes/NewAttraction')
 
 app.use('/attractions', attractionsRouter)
 app.use('/Contact', contactRouter)

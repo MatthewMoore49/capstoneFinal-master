@@ -2,7 +2,7 @@ const router = require('express').Router()
 let Attraction = require('../models/AttractionSchema')
 
 router.route('/').get((req, res) => {
-    Attraction.find(req.params.id)
+    Attraction.find()
     .then(attraction =>
         res.json(attraction))
         .catch((err) => {
@@ -38,7 +38,6 @@ router.route('/add').post((req, res) => {
     const imageURL = req.body.imageURL
     const website = req.body.website
     const location = req.body.location 
-    const category = req.body.category  
     
     const newAttraction = new Attraction ({
         title,
@@ -46,17 +45,16 @@ router.route('/add').post((req, res) => {
         imageURL,
         website,
         location,
-        category        
         })
     newAttraction.save()
         .then(()=>{
-           console.log(req.body);
+        //    console.log(req.body);
             res.json('Attraction Added')
             
             })
-            .catch((err)=>{
-                res.status(400).json("Error: " + err)
-            })
+            // .catch((err)=>{
+            //     res.status(400).json("Error: " + err)
+            // })
 })
 
 module.exports = router;

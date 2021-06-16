@@ -7,7 +7,7 @@ import '../styles/Attractions.css'
 const Attraction = (props) => {
     return (
         <div className='allAttractions'>
-            <div className='attractionsCard'>
+            <div className='attractionsCard' data-aos="flip-up">
                 <div className='cardImage'>
                     <img className='attractionImage' src={props.attraction.imageURL} alt='attraction' />
                 </div>
@@ -55,8 +55,16 @@ export default class Attractions extends Component {
         return (
             this.state.loading === false ? (
                 <div className='row'>
+                <div className="jumbotron jumbotron-fluid attracthover">
+          <div className="attractcontainer">
+              <h1>Explore Cincinnati</h1>
+          </div>
+      </div>
+      <div className='attractheader'>
+          <h1>The Queen City <span className='crown'><i class="fas fa-crown fa-xs"></i></span> Porkopolis <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The City That Sings <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The 'Nati</h1>
+          <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
+      </div>
                 <div className='attractionsContainer'>
-                    <h2 className='attractionsHeader'>Attractions</h2>
                     <div className='attractionsInnerContainer'>
                         {this.attractionsList()}
                     </div>

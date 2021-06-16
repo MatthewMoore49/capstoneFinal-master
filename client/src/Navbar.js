@@ -13,7 +13,7 @@ const Navbar = () => {
         <li><Link to="/contact">Contact</Link></li>
         <li><Link path to="/Attractions">All Attractions</Link></li>
 <li className="dropdown">
-  <Link className="dropbtn" to=''>Categories</Link>
+  <Link className="dropbtn" >Categories</Link>
   <div className="dropdown-content">
     <Link className='dropdowna' to="/Breweries">Breweries</Link>
     <Link className='dropdowna' to="/Casinos">Casinos</Link>
