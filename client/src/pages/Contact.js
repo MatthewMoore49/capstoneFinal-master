@@ -40,7 +40,7 @@ export default class contact extends Component {
       comment: this.state.comment,
     }
     console.log(contact)
-    axios.post(BACKEND_URL + 'contact', contact)
+    axios.post(BACKEND_URL + 'contact/add', contact)
     .then(res=>console.log(res.data));
     // window.location="/"
     this.props.history.push('/');
@@ -50,7 +50,7 @@ export default class contact extends Component {
         email: '',
         comment: ''
     })
-    window.alert('Thank you for your inquiry')
+    window.alert('Thanks for reaching out!')
     console.log(contact)
   }
   render() {
