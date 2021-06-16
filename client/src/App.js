@@ -18,11 +18,10 @@ import Parks from './pages/Parks';
 import Favorites from './pages/OurFavories';
 import Attractions from './pages/Attractions';
 import Contact from './pages/Contact';
-import NewAttraction from './pages/NewAttraction';
 import FooterHome from './FooterHome';
 import './styles/Main.css';
 // import router from './routes/auth';
-
+import AddAttraction from './pages/AddAttraction'
 
 
 
@@ -52,7 +51,7 @@ const App = () => {
     <Route path = '/Parks' component={Parks}/>
     <Route path = '/Restaurants' component={Restaurants}/>
     <Route path = '/Breweries' component={Breweries}/>
-    <Route path = '/NewAttraction' component={NewAttraction}/>
+    <Route exact path = '/AddAttraction' component={AddAttraction}/>
     <FooterHome />
     </div>
     </BrowserRouter>

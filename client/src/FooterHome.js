@@ -1,6 +1,6 @@
   import React from 'react';
   import '../src/styles/Footer.css';
-  //import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+  import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
   import {FaGithub, FaLinkedin, FaUserCircle} from 'react-icons/fa'
 
   const FooterHome = () => {
