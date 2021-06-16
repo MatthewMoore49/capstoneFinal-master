@@ -71,8 +71,8 @@ class NewAttraction extends Component {
             category: this.state.location.category,
             location: this.state.location   
         }
-        console.log(BACKEND_URL + 'attractions/add', attraction)
-        axios.post(BACKEND_URL + 'attractions/add', attraction)
+        console.log(BACKEND_URL + 'NewAttraction', attraction)
+        axios.post(BACKEND_URL + 'NewAttraction', attraction)
         .then(res => console.log(res.data));
         // window.location='/viewattractions'
         this.props.history.push('/viewattractions');
