@@ -9,19 +9,23 @@ class NewAttraction extends Component {
     constructor (props) {
         super(props)
         this.onChangeName = this.onChangeName.bind(this);
-      
+        // this.onChangeTitle = this.onChangeTitle.bind(this);
         this.onChangeDescription= this.onChangeDescription.bind(this);
-     
+        // this.onChangeImageURL = this.onChangeImageURL.bind(this);
+        // this.onChangeWebsite = this.Website.bind(this);
+        // this.onChangeCategory = this.onChangeCategory.bind(this);
+        // this.onChangeLocation = this.onChangeLocation.bind(this);
         
         this.state = {
             name: "",
-            title: "",
+           title: "",
             description: "",
             imageURL: "",
             website: "",
             category: "",
-            location: ""              
-        }
+            location: ""
+              
+            }
           
     }
 
@@ -71,8 +75,8 @@ class NewAttraction extends Component {
         axios.post(BACKEND_URL + 'attractions/add', attraction)
         .then(res => console.log(res.data));
         // window.location='/viewattractions'
-        this.props.history.push('/Attractions');
-        console.log(attraction);
+        this.props.history.push('/viewattractions');
+        console.log(attraction)
     };
     render() {
         return(
@@ -130,7 +134,7 @@ class NewAttraction extends Component {
                         </div>
                     </form>
                 </div>
-            </div>
+</div>
             </div>
         )
     }

@@ -2,13 +2,13 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema;
 const contactSchema = new Schema({
         name: {
-            type: String
+            type: String,
         },
         email: {
-            type: String
+            type: String,
         },
         message: {
-            type: String
+            type: String,
         }
      
         

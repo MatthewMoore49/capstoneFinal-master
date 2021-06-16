@@ -50,7 +50,7 @@ export default class contact extends Component {
         comment: ''
     })
     window.alert('Thank you for your inquiry')
-    // console.log(contact)
+    console.log(contact)
   }
   render() {
     return (
