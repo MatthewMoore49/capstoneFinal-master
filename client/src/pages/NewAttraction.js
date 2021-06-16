@@ -89,7 +89,7 @@ class NewAttraction extends Component {
                 <div className="addform">
                     <form className='add' onSubmit={this.onSubmit}>
                         <div className="form-group">
-                            <label>title: </label>
+                            <label>Name: </label>
                             <input type='text' required className='form-control inputs' 
                             value={this.state.title} onChange={this.onChangeTitle}>
                             </input> 
@@ -135,4 +135,4 @@ class NewAttraction extends Component {
     }
 }
 
-export default withRouter(NewAttraction)
+export default withRouter (NewAttraction)
