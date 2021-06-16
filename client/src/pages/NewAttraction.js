@@ -135,4 +135,4 @@ export default class NewAttraction extends Component {
     }
 }
 
-export default withRouter (NewAttraction)
+// export default withRouter (NewAttraction)
