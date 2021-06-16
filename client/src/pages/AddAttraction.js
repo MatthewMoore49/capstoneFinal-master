@@ -134,5 +134,5 @@ class AddAttraction extends Component {
    }
 }
  
-export default AddAttraction
+export default withRouter(AddAttraction)
 
