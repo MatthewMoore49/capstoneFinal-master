@@ -15,14 +15,13 @@ class NewAttraction extends Component {
         
         this.state = {
             name: "",
-           title: "",
+            title: "",
             description: "",
             imageURL: "",
             website: "",
             category: "",
-            location: ""
-              
-            }
+            location: ""              
+        }
           
     }
 
@@ -72,8 +71,8 @@ class NewAttraction extends Component {
         axios.post(BACKEND_URL + 'attractions/add', attraction)
         .then(res => console.log(res.data));
         // window.location='/viewattractions'
-        this.props.history.push('/viewattractions');
-        console.log(attraction)
+        this.props.history.push('/Attractions');
+        console.log(attraction);
     };
     render() {
         return(
