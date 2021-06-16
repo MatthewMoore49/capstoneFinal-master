@@ -7,30 +7,27 @@ import { withRouter } from 'react-router-dom'
 class NewAttraction extends Component {
     constructor (props) {
         super(props)
-        this.onChangeName = this.onChangeName.bind(this);
-        // this.onChangeTitle = this.onChangeTitle.bind(this);
+        this.onChangeTitle = this.onChangeTitle.bind(this);
         this.onChangeDescription= this.onChangeDescription.bind(this);
-        // this.onChangeImageURL = this.onChangeImageURL.bind(this);
-        // this.onChangeWebsite = this.Website.bind(this);
+        this.onChangeImageURL = this.onChangeImageURL.bind(this);
+        this.onChangeWebsite = this.onChangeWebsite.bind(this);
         // this.onChangeCategory = this.onChangeCategory.bind(this);
-        // this.onChangeLocation = this.onChangeLocation.bind(this);
-        
+        this.onChangeLocation = this.onChangeLocation.bind(this);
+        this.onSubmit = this.onSubmit.bind(this);
         this.state = {
-            name: "",
-           title: "",
+            title: "",
             description: "",
             imageURL: "",
             website: "",
-            category: "",
             location: ""
               
             }
           
     }
 
-    onChangeName(e) {
+    onChangeTitle(e) {
         this.setState({
-            name: e.target.value
+            title: e.target.value
         })
     }
     onChangeDescription(e) {
@@ -38,7 +35,7 @@ class NewAttraction extends Component {
             description: e.target.value
         })
     }
-    onChangeImageUrl(e) {
+    onChangeImageURL(e) {
         this.setState({
             imageURL: e.target.value
         })
@@ -48,11 +45,11 @@ class NewAttraction extends Component {
             website: e.target.value    
         })
     }
-    onChangeCategory(e) {
-        this.setState({
-                category: e.target.value  
-        })
-    }
+    // onChangeCategory(e) {
+    //     this.setState({
+    //             category: e.target.value  
+    //     })
+    // }
     onChangeLocation(e) {
         this.setState({
            location: e.target.value
@@ -67,14 +64,13 @@ class NewAttraction extends Component {
             description: this.state.description,
             imageURL: this.state.imageURL,
             website: this.state.website,
-            category: this.state.location.category,
             location: this.state.location   
         }
-        console.log(BACKEND_URL + 'NewAttraction', attraction)
-        axios.post(BACKEND_URL + 'NewAttraction', attraction)
+        console.log(BACKEND_URL + 'attractions/add', attraction)
+        axios.post(BACKEND_URL + 'attractions/add', attraction)
         .then(res => console.log(res.data));
         // window.location='/viewattractions'
-        this.props.history.push('/viewattractions');
+        this.props.history.push('/Attractions');
         console.log(attraction)
     };
     render() {
@@ -88,12 +84,12 @@ class NewAttraction extends Component {
       </div>
       <div className='attractheader'>
           <h1>The Queen City <span className='crown'><i class="fas fa-crown fa-xs"></i></span> Porkopolis <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The City That Sings <span className='crown'><i class="fas fa-crown fa-xs"></i></span> The 'Nati</h1>
-          <h2>WHATEVER NAME YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
+          <h2>WHATEVER title YOU KNOW US BY, THERE'S ONLY ONE CINCINNATI</h2>
       </div>
                 <div className="addform">
                     <form className='add' onSubmit={this.onSubmit}>
                         <div className="form-group">
-                            <label>Name: </label>
+                            <label>title: </label>
                             <input type='text' required className='form-control inputs' 
                             value={this.state.title} onChange={this.onChangeTitle}>
                             </input> 

@@ -32,13 +32,12 @@ router.route('/:id').get((req, res) => {
     });
 });
 
-router.route('/NewAttraction').post((req, res) => { 
+router.route('/add').post((req, res) => { 
     const title = req.body.title;
     const description = req.body.description
     const imageURL = req.body.imageURL
     const website = req.body.website
     const location = req.body.location 
-    const category = req.body.category  
     
     const newAttraction = new Attraction ({
         title,
@@ -46,7 +45,6 @@ router.route('/NewAttraction').post((req, res) => {
         imageURL,
         website,
         location,
-        category        
         })
     newAttraction.save()
         .then(()=>{

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import '../styles/Contact.css'
+import '../styles/Contact.css';
+import {BACKEND_URL} from '../config'
 
 export default class contact extends Component {
   constructor (props){
