@@ -27,7 +27,6 @@ const contactRouter = require('./routes/Contact')
 
 app.use('/attractions', attractionsRouter)
 app.use('/Contact', contactRouter)
-//app.use('/NewAttraction', NewAttractionRouter)
 
 
 
