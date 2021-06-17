@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2c9f681f.chunk.css",
+    "main.js": "/static/js/main.0cdadfda.chunk.js",
+    "main.js.map": "/static/js/main.0cdadfda.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.25b77111.js",
+    "runtime-main.js.map": "/static/js/runtime-main.25b77111.js.map",
+    "static/css/2.cecb20a1.chunk.css": "/static/css/2.cecb20a1.chunk.css",
+    "static/js/2.50adb5dd.chunk.js": "/static/js/2.50adb5dd.chunk.js",
+    "static/js/2.50adb5dd.chunk.js.map": "/static/js/2.50adb5dd.chunk.js.map",
+    "static/js/3.ff65315e.chunk.js": "/static/js/3.ff65315e.chunk.js",
+    "static/js/3.ff65315e.chunk.js.map": "/static/js/3.ff65315e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.cecb20a1.chunk.css.map": "/static/css/2.cecb20a1.chunk.css.map",
+    "static/css/main.2c9f681f.chunk.css.map": "/static/css/main.2c9f681f.chunk.css.map",
+    "static/js/2.50adb5dd.chunk.js.LICENSE.txt": "/static/js/2.50adb5dd.chunk.js.LICENSE.txt",
+    "static/media/Home.css": "/static/media/7.f1ac4f92.png",
+    "static/media/Contact.css": "/static/media/4.c6ecb060.png",
+    "static/media/About.css": "/static/media/6.fa19f11c.png",
+    "static/media/Attractions.css": "/static/media/9.b9e58a1f.png",
+    "static/media/SingleAttraction.css": "/static/media/Sports.f9f0f5cc.png",
+    "static/media/breweries.9a30a0c9.png": "/static/media/breweries.9a30a0c9.png",
+    "static/media/casino.3dfa54f4.png": "/static/media/casino.3dfa54f4.png",
+    "static/media/downtown.7b1eea92.png": "/static/media/downtown.7b1eea92.png",
+    "static/media/food.72d9cf47.png": "/static/media/food.72d9cf47.png",
+    "static/media/libertycenter.f46de9d7.png": "/static/media/libertycenter.f46de9d7.png",
+    "static/media/museums.93d306ac.png": "/static/media/museums.93d306ac.png",
+    "static/media/music.d015a045.png": "/static/media/music.d015a045.png",
+    "static/media/newport.dac98926.png": "/static/media/newport.dac98926.png",
+    "static/media/other.7250b13f.png": "/static/media/other.7250b13f.png",
+    "static/media/otr.a78c27cc.png": "/static/media/otr.a78c27cc.png",
+    "static/media/parks.41eb4a45.png": "/static/media/parks.41eb4a45.png",
+    "static/media/sports.9e22a68d.png": "/static/media/sports.9e22a68d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.25b77111.js",
+    "static/css/2.cecb20a1.chunk.css",
+    "static/js/2.50adb5dd.chunk.js",
+    "static/css/main.2c9f681f.chunk.css",
+    "static/js/main.0cdadfda.chunk.js"
+  ]
+}
