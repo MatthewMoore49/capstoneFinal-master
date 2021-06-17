@@ -2,11 +2,7 @@ const router = require('express').Router()
 let Attraction = require('../models/AttractionSchema')
 
 router.route('/').get((req, res) => {
-<<<<<<< HEAD
-    Attraction.find(req.params.id)
-=======
     Attraction.find()
->>>>>>> f38e7c77c0fe6a9478c2e4c70d2e62017c768e7c
     .then(attraction =>
         res.json(attraction))
         .catch((err) => {
@@ -42,19 +38,13 @@ router.route('/add').post((req, res) => {
     const imageURL = req.body.imageURL
     const website = req.body.website
     const location = req.body.location 
-<<<<<<< HEAD
-    const category = req.body.category  
-=======
->>>>>>> f38e7c77c0fe6a9478c2e4c70d2e62017c768e7c
     
     const newAttraction = new Attraction ({
         title,
         description,
         imageURL,
         website,
-        location,
-<<<<<<< HEAD
-        category        
+        location
         })
     newAttraction.save()
         .then(()=>{
@@ -65,7 +55,6 @@ router.route('/add').post((req, res) => {
             .catch((err)=>{
                 res.status(400).json("Error: " + err)
             })
-=======
         })
     newAttraction.save()
         .then(()=>{
@@ -76,8 +65,9 @@ router.route('/add').post((req, res) => {
             // .catch((err)=>{
             //     res.status(400).json("Error: " + err)
             // })
->>>>>>> f38e7c77c0fe6a9478c2e4c70d2e62017c768e7c
-})
+            .catch((err)=>{
+                res.status(400).json("Error: " + err)
+            })
 
 module.exports = router;
 
